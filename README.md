@@ -5,5 +5,5 @@ Notebooks
 
 ### Data Sources ###
 
-* Water Survey of Canada [[.ipynb](http://nbviewer.ipython.org/github/jckantor/CBE20255/blob/master/notebooks/Getting%20Started%20with%20IPython.ipynb)]
+*  [Water Survey of Canada](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Water_Survey_of_Canada.ipynb)
 
