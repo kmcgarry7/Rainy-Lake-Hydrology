@@ -9,4 +9,6 @@
 
 ### Analysis ###
 
+*  [Effect of Rule Curves on Surge Capacity](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Effect_of_Rule_Curves_on_Surge_Capacity.ipynb)
 * Rainy River Discharge, 1970-1999 versus 2000-2010
+
