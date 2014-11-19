@@ -13,7 +13,7 @@
 * [Flow_Constrictions_on_Upper_Rainy_River](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Flow_Constrictions_on_Upper_Rainy_River.ipynb)
 * [Estimating Rainy Lake Inflows 1970-2010]
 
-### Mitigating Changes to Lake Level Behavior ###
+### Mitigation ###
 
 * [Harmonizing Rule Curves to Seasonal Inflows]
 * [Feedforward Control for the Dam at International Falls]
