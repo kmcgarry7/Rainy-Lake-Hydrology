@@ -15,8 +15,8 @@
 
 ### Mitigating Changes to Lake Level Behavior ###
 
-* [Harmonizing Rule Curves to Seasonal Inflows]<!--- (http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Harmonizing_Rule_Curves_to_Seasonal_Inflows.ipynb) -->
-* [Feedforward Control for the Dam at International Falls]<!--- (http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Feedforward_Control_for_the_Dam_at_International_Falls.ipynb) -->
-* [Model Predictive Control of Dams at Kettle Falls and International Falls]<!--- (http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Model_Predictive_Control_of_Dams_at_Kettle_Falls_and_International_Falls.ipynb) -->
-* [Improved Prediction of Inflows]<!--- (http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Improved_Prediction_of_Inflows.ipynb) -->
+* [Harmonizing Rule Curves to Seasonal Inflows]
+* [Feedforward Control for the Dam at International Falls]
+* [Model Predictive Control of Dams at Kettle Falls and International Falls]
+* [Improved Prediction of Inflows]
 
