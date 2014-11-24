@@ -4,29 +4,40 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Rainy Lake Hydrology by jckantor</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
-    <div class="wrapper">
+
       <header>
         <h1>Rainy Lake Hydrology</h1>
         <p>A collection of IPython notebooks analyzing the hydrology of Rainy Lake on the Minnesota/Ontario border.</p>
-
-        <p class="view"><a href="https://github.com/jckantor/Rainy-Lake-Hydrology">View the Project on GitHub <small>jckantor/Rainy-Lake-Hydrology</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/jckantor/Rainy-Lake-Hydrology/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/jckantor/Rainy-Lake-Hydrology/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/jckantor/Rainy-Lake-Hydrology">View On <strong>GitHub</strong></a></li>
-        </ul>
       </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/jckantor/Rainy-Lake-Hydrology" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/jckantor/Rainy-Lake-Hydrology/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/jckantor/Rainy-Lake-Hydrology/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
       <section>
         <h3>
 <a id="data-sources" class="anchor" href="#data-sources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Sources</h3>
@@ -45,7 +56,7 @@
 <li><a href="http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Effect_of_Rule_Curve_Changes_on_Rainy_River_Flows.ipynb">Effect of Rule Curve Changes on Rainy River Flows</a></li>
 <li><a href="http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Changes_in_Rainy_River_Flows_1970-2010.ipynb">Changes in Rainy River Flows 1970-2010</a></li>
 <li><a href="http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Namakan_and_Rainy_Lake_Water_Levels_1970-2010.ipynb">Namakan and Rainy Lake Water Levels 1970-2010</a></li>
-<li><a href="http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Flow_Constrictions_on_Upper_Rainy_River.ipynb">Flow_Constrictions_on_Upper_Rainy_River</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Flow_Constrictions_on_Upper_Rainy_River.ipynb">Flow Constrictions on Upper Rainy River</a></li>
 <li><a href="http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Estimating_Rainy_Lake_Inflows_1970-2010.ipynb">Estimating Rainy Lake Inflows 1970-2010</a></li>
 </ul>
 
@@ -60,11 +71,11 @@
 </ul>
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/jckantor">jckantor</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>Project maintained by <a href="https://github.com/jckantor">jckantor</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
 </html>
