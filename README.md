@@ -9,7 +9,7 @@
 
 ### Changes in Lake Level Behavior 1970-2010 ###
 
-* [Effect of Rule Curve Changes on Rainy River Flows](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Effect_of_Rule_Curve_Changes_on_Rainy_River_Flows.ipynb)
+* [Predicted Effect of Rule Curve Changes on Rainy River Flows](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Predicted_Effect_of_Rule_Curve_Changes_on_Rainy_River_Flows.ipynb)
 * [Changes in Rainy River Flows 1970-2010](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Changes_in_Rainy_River_Flows_1970-2010.ipynb)
 * [Namakan and Rainy Lake Water Levels 1970-2010](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Namakan_and_Rainy_Lake_Water_Levels_1970-2010.ipynb)
 * [Precipitation at Internatonal Falls 1970-2010](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Precipitation_at_International_Falls_1970-2010.ipynb)
