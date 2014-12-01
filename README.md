@@ -1,5 +1,7 @@
 ### Data Sources ###
 
+The following notebooks provide links and tools to access relevant level, flow, and precipitation data for an analysis of the hydrology of Rainy Lake. These notebooks 'pickle' relevant data series as Pandas series and dataframes for import into other notebooks. Functions are accessed by running the notebooks in relevant IPython workspace with the `%run -i` command.
+
 * [Water Survey of Canada](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Water_Survey_of_Canada.ipynb)
 * [Rainy Lake Water Levels](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Rainy_Lake_Water_Levels.ipynb)
 * [Namakan Lake Water Levels](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Namakan_Lake_Water_Levels.ipynb)
