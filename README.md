@@ -16,7 +16,7 @@ The following notebooks provide links and tools to access relevant level, flow, 
 * [Namakan and Rainy Lake Water Levels 1970-2010](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Namakan_and_Rainy_Lake_Water_Levels_1970-2010.ipynb)
 * [Precipitation at Internatonal Falls 1970-2010](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Precipitation_at_International_Falls_1970-2010.ipynb)
 * [Flow Constrictions on Upper Rainy River](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Flow_Constrictions_on_Upper_Rainy_River.ipynb)
-* [Estimating Rainy Lake Inflows 1971-2010](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Estimating_Rainy_Lake_Inflows_1970-2011.ipynb)
+* [Estimating Rainy Lake Inflows 1971-2010](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Estimating_Rainy_Lake_Inflows_1971-2010.ipynb)
 
 ### Mitigation through Advanced Control and Optimization ###
 
