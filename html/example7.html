@@ -1,0 +1,658 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>example7</title><meta name="generator" content="MATLAB 8.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2015-01-29"><meta name="DC.source" content="example7.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">Demonstration of Unstable Control</a></li><li><a href="#2">Part 1: Setting up the problem</a></li><li><a href="#3">Part 2: The actuator distribution</a></li><li><a href="#4">Part 3: The fix: SVD</a></li><li><a href="#5">Part 4: Smaller numbers of actuators</a></li></ul></div><h2>Demonstration of Unstable Control<a name="1"></a></h2><p>In this example we are exploring what happens if you have too many sensors and actuators in a control problem.  Suppose we are trying to achieve a particular profile by the linear superposition of a distribution of Gaussian impulses.  As an example, suppose each actuator is a hammer which delivers a force distributed over some range (standard deviation of the Gaussian impulse), and whose magnitude is the adjustable parameter we want to solve for.  The idea is to determine the distribution of impulse strengths (force applied to each of the hammers) that yields the desired force distribution over the entire range from 0 to 1.  We will explore the dependence of the solution on the size of the problem (number of actuators and number of points at which the force is evaluated).</p><pre class="codeinput">pause
+</pre><h2>Part 1: Setting up the problem<a name="2"></a></h2><p>We begin by setting up the array of actuators and measurement points (points where we will match the distribution) as well as an array for plotting purposes:</p><pre class="codeinput">echo <span class="string">on</span>
+nact=20;
+nmeas=25;
+
+tact=linspace(1/nact/2,1-1/nact/2,nact)'; <span class="comment">%Where we put the actuators</span>
+tmeas=linspace(0,1,nmeas)'; <span class="comment">%Where we do the measurements</span>
+tplot=[0:.001:1]'; <span class="comment">%an array we will use for plotting things up.</span>
+
+<span class="comment">% OK, now we want to construct the matrices representing the impulse array.</span>
+<span class="comment">% We will do this both for the points where we will "measure" the</span>
+<span class="comment">% distribution, as well as a more closely spaced array for plotting</span>
+<span class="comment">% purposes:</span>
+
+a=zeros(nmeas,nact); <span class="comment">%The array for calculation of the solution vector</span>
+aplot=zeros(length(tplot),nact); <span class="comment">%The array for plotting purposes</span>
+
+<span class="keyword">for</span> j=1:nact
+    a(:,j)=pdf(<span class="string">'normal'</span>,tmeas,tact(j),2/nact);
+    aplot(:,j)=pdf(<span class="string">'normal'</span>,tplot,tact(j),2/nact);
+    <span class="comment">% We take the actuator distribution to be normal, with a s.d. equal to</span>
+    <span class="comment">% twice the spacing, so there is a bit of overlap</span>
+    echo <span class="string">off</span>
+<span class="keyword">end</span>
+
+echo <span class="string">on</span>
+<span class="comment">%Now let's plot up the distribution of all the actuators:</span>
+figure(1)
+plot(tplot,aplot)
+xlabel(<span class="string">'t'</span>)
+ylabel(<span class="string">'distribution'</span>)
+title(<span class="string">'Distribution from individual activators'</span>)
+
+<span class="comment">% We see that each of the actuators yields a distributed force, and that we</span>
+<span class="comment">% can combine these to get the desired distribution.</span>
+pause
+echo <span class="string">off</span>
+</pre><pre class="codeoutput">nact=20;
+nmeas=25;
+
+tact=linspace(1/nact/2,1-1/nact/2,nact)'; %Where we put the actuators
+tmeas=linspace(0,1,nmeas)'; %Where we do the measurements
+tplot=[0:.001:1]'; %an array we will use for plotting things up.
+
+% OK, now we want to construct the matrices representing the impulse array.
+% We will do this both for the points where we will "measure" the
+% distribution, as well as a more closely spaced array for plotting
+% purposes:
+a=zeros(nmeas,nact); %The array for calculation of the solution vector
+aplot=zeros(length(tplot),nact); %The array for plotting purposes
+
+for j=1:nact
+    a(:,j)=pdf('normal',tmeas,tact(j),2/nact);
+    aplot(:,j)=pdf('normal',tplot,tact(j),2/nact);
+    % We take the actuator distribution to be normal, with a s.d. equal to
+    % twice the spacing, so there is a bit of overlap
+    echo off
+%Now let's plot up the distribution of all the actuators:
+figure(1)
+plot(tplot,aplot)
+xlabel('t')
+ylabel('distribution')
+title('Distribution from individual activators') 
+
+% We see that each of the actuators yields a distributed force, and that we
+% can combine these to get the desired distribution.  
+pause
+echo off
+</pre><img vspace="5" hspace="5" src="example7_01.png" alt=""> <h2>Part 2: The actuator distribution<a name="3"></a></h2><p>Now we need to determine the amplitude of each activator that achieves some distribution of measured values.  We shall use a quadratic distribution over the domain [0,1] as our target.</p><pre class="codeinput">echo <span class="string">on</span>
+<span class="comment">% We set up the right hand side vector:</span>
+
+b=2+2*tmeas.^2; <span class="comment">%for calculation of x</span>
+bplot=2+2*tplot.^2; <span class="comment">%for plotting purposes</span>
+
+<span class="comment">% The solution is very easy!</span>
+x=a\b;
+
+<span class="comment">% And we plot it up:</span>
+figure(2)
+plot(tmeas,b,<span class="string">'og'</span>,tplot,aplot*x,<span class="string">'r'</span>)
+xlabel(<span class="string">'t'</span>)
+ylabel(<span class="string">'distribution'</span>)
+legend(<span class="string">'target values'</span>,<span class="string">'actuator results'</span>)
+title([<span class="string">'Combined Distribution from '</span>,num2str(nact),<span class="string">' Actuators'</span>])
+
+<span class="comment">% This -looks- fine, but we actually have a big problem: The magnitude of</span>
+<span class="comment">% the solution vector x is getting huge!</span>
+pause
+
+<span class="comment">% We can see the problem if we look at the solution vector x:</span>
+x
+
+<span class="comment">% Note that while we are trying to get "positive" force everywhere, some of</span>
+<span class="comment">% the coefficients are negative: equivalent to banging on the other side of</span>
+<span class="comment">% the plate to get forces to cancel out!  We are also very sensitive to</span>
+<span class="comment">% errors in x.  Suppose we have a small 0.1% error in each value.  What would</span>
+<span class="comment">% our system look like then?</span>
+
+pause
+
+er=0.0005;
+xerror=x+er*x.*randn(size(x));
+figure(2)
+plot(tmeas,b,<span class="string">'og'</span>,tplot,aplot*x,<span class="string">'r'</span>,tplot,aplot*xerror,<span class="string">'k'</span>)
+xlabel(<span class="string">'t'</span>)
+ylabel(<span class="string">'distribution'</span>)
+legend(<span class="string">'target values'</span>,<span class="string">'actuator results'</span>,[<span class="string">'with '</span>,num2str(er),<span class="string">' error'</span>])
+title([<span class="string">'Combined Distribution from '</span>,num2str(nact),<span class="string">' Actuators'</span>])
+
+echo <span class="string">off</span>
+</pre><pre class="codeoutput">% We set up the right hand side vector:
+b=2+2*tmeas.^2; %for calculation of x
+bplot=2+2*tplot.^2; %for plotting purposes
+
+% The solution is very easy!
+x=a\b;
+
+% And we plot it up:
+figure(2)
+plot(tmeas,b,'og',tplot,aplot*x,'r')
+xlabel('t')
+ylabel('distribution')
+legend('target values','actuator results')
+title(['Combined Distribution from ',num2str(nact),' Actuators'])
+
+% This -looks- fine, but we actually have a big problem: The magnitude of
+% the solution vector x is getting huge!
+pause
+
+% We can see the problem if we look at the solution vector x:
+x
+
+x =
+
+    3.3417
+  -10.4797
+   20.3470
+  -27.7848
+   28.6041
+  -18.1237
+   -4.4082
+   38.8164
+  -80.7404
+  125.8079
+ -166.7933
+  198.4298
+ -214.4700
+  212.8341
+ -192.1271
+  156.6762
+ -111.6821
+   67.1541
+  -30.4611
+    8.6698
+
+
+% Note that while we are trying to get "positive" force everywhere, some of
+% the coefficients are negative: equivalent to banging on the other side of
+% the plate to get forces to cancel out!  We are also very sensitive to
+% errors in x.  Suppose we have a small 0.1% error in each value.  What would
+% our system look like then?
+pause
+
+er=0.0005;
+xerror=x+er*x.*randn(size(x));
+figure(2)
+plot(tmeas,b,'og',tplot,aplot*x,'r',tplot,aplot*xerror,'k')
+xlabel('t')
+ylabel('distribution')
+legend('target values','actuator results',['with ',num2str(er),' error'])
+title(['Combined Distribution from ',num2str(nact),' Actuators'])
+
+echo off
+</pre><img vspace="5" hspace="5" src="example7_02.png" alt=""> <h2>Part 3: The fix: SVD<a name="4"></a></h2><p>The difficulty with the problem was that with all these actuators, the matrix was actually close to singularity.  Let's do SVD and look at this, as well as figuring out how to fix it!</p><pre class="codeinput">echo <span class="string">on</span>
+
+<span class="comment">% First, we do SVD:</span>
+[u s v]=svd(a);
+
+<span class="comment">% And we plot up the singular values:</span>
+ds=diag(s);
+figure(3)
+plot(abs(ds))
+xlabel(<span class="string">'n'</span>)
+ylabel(<span class="string">'singular value (magnitude)'</span>)
+title(<span class="string">'Plot of singular values'</span>)
+
+<span class="comment">% As you can see, the higher singular values drop off pretty quickly.  It</span>
+<span class="comment">% is the last few that are causing all the trouble.</span>
+pause
+
+<span class="comment">% We can fix the problem by only keeping some of the singular values:</span>
+nkeep=ceil(nact/1.5); <span class="comment">%We use 2/3 of them</span>
+smod=zeros(size(s));
+smod(1:nkeep,1:nkeep)=diag(ds(1:nkeep));
+
+amod=u*smod*v'; <span class="comment">%The modified matrix a with only the larger singular values</span>
+xmod=amod\b <span class="comment">%The new solution vector</span>
+
+<span class="comment">% Where all the values are much smaller!</span>
+pause
+
+<span class="comment">% Now we see how we do (with error as well):</span>
+xmoderror=xmod+er*xmod.*randn(size(x));
+
+figure(4)
+plot(tmeas,b,<span class="string">'og'</span>,tplot,aplot*xmod,<span class="string">'r'</span>,tplot,aplot*xmoderror,<span class="string">'k'</span>)
+xlabel(<span class="string">'t'</span>)
+ylabel(<span class="string">'distribution'</span>)
+legend(<span class="string">'target values'</span>,<span class="string">'actuator results'</span>,[<span class="string">'with '</span>,num2str(er),<span class="string">' error'</span>])
+title([<span class="string">'Combined Distribution from Actuators with '</span>,num2str(nkeep),<span class="string">' singular values'</span>])
+
+<span class="comment">% So we don't exactly match the desired distribution with a reduced number</span>
+<span class="comment">% of singular values, but we are very close - and we aren't sensitive to</span>
+<span class="comment">% errors in the solution vector.  This is important for control problems</span>
+<span class="comment">% where actuators aren't perfect, and thus if you have a solution matrix</span>
+<span class="comment">% that is close to singularity, you will wind up getting instabilities in</span>
+<span class="comment">% the thing you are trying to control.  By using the reduced problem, you</span>
+<span class="comment">% are essentially controlling all the actuators in a pattern corresponding</span>
+<span class="comment">% to the first nkeep columns of the matrix V, rather than controlling all</span>
+<span class="comment">% of them individually.</span>
+pause
+
+echo <span class="string">off</span>
+</pre><pre class="codeoutput">
+% First, we do SVD:
+[u s v]=svd(a);
+
+% And we plot up the singular values:
+ds=diag(s);
+figure(3)
+plot(abs(ds))
+xlabel('n')
+ylabel('singular value (magnitude)')
+title('Plot of singular values')
+
+% As you can see, the higher singular values drop off pretty quickly.  It
+% is the last few that are causing all the trouble.
+pause
+
+% We can fix the problem by only keeping some of the singular values:
+nkeep=ceil(nact/1.5); %We use 2/3 of them
+smod=zeros(size(s));
+smod(1:nkeep,1:nkeep)=diag(ds(1:nkeep));
+
+amod=u*smod*v'; %The modified matrix a with only the larger singular values
+xmod=amod\b %The new solution vector
+Warning: Rank deficient, rank = 14, tol =  4.567551e-14. 
+
+xmod =
+
+    1.0117
+   -0.9215
+         0
+    1.3042
+   -0.9127
+         0
+    0.9351
+   -0.4212
+         0
+    0.4419
+         0
+    0.1966
+         0
+   -0.0013
+    0.7966
+         0
+   -1.9434
+    4.9999
+   -5.1380
+    3.0856
+
+
+% Where all the values are much smaller!
+pause
+
+% Now we see how we do (with error as well):
+xmoderror=xmod+er*xmod.*randn(size(x));
+
+figure(4)
+plot(tmeas,b,'og',tplot,aplot*xmod,'r',tplot,aplot*xmoderror,'k')
+xlabel('t')
+ylabel('distribution')
+legend('target values','actuator results',['with ',num2str(er),' error'])
+title(['Combined Distribution from Actuators with ',num2str(nkeep),' singular values'])
+
+% So we don't exactly match the desired distribution with a reduced number
+% of singular values, but we are very close - and we aren't sensitive to
+% errors in the solution vector.  This is important for control problems
+% where actuators aren't perfect, and thus if you have a solution matrix
+% that is close to singularity, you will wind up getting instabilities in
+% the thing you are trying to control.  By using the reduced problem, you
+% are essentially controlling all the actuators in a pattern corresponding
+% to the first nkeep columns of the matrix V, rather than controlling all
+% of them individually.
+pause
+
+echo off
+</pre><img vspace="5" hspace="5" src="example7_03.png" alt=""> <img vspace="5" hspace="5" src="example7_04.png" alt=""> <h2>Part 4: Smaller numbers of actuators<a name="5"></a></h2><p>It is interesting to see what happens if you have a much smaller number of actuators acting over a larger area.  We can easily use some "cut and paste" to change this:</p><pre class="codeinput">echo <span class="string">on</span>
+nact=5;
+
+tact=linspace(1/nact/2,1-1/nact/2,nact)'; <span class="comment">%Where we put the actuators</span>
+a=zeros(nmeas,nact); <span class="comment">%The array for calculation of the solution vector</span>
+aplot=zeros(length(tplot),nact); <span class="comment">%The array for plotting purposes</span>
+
+<span class="keyword">for</span> j=1:nact
+    a(:,j)=pdf(<span class="string">'normal'</span>,tmeas,tact(j),2/nact);
+    aplot(:,j)=pdf(<span class="string">'normal'</span>,tplot,tact(j),2/nact);
+    <span class="comment">% We take the actuator distribution to be normal, with a s.d. equal to</span>
+    <span class="comment">% twice the spacing, so there is a bit of overlap</span>
+    echo <span class="string">off</span>
+<span class="keyword">end</span>
+
+echo <span class="string">on</span>
+<span class="comment">%Now let's plot up the distribution of all the actuators:</span>
+figure(5)
+plot(tplot,aplot)
+xlabel(<span class="string">'t'</span>)
+ylabel(<span class="string">'distribution'</span>)
+title(<span class="string">'Distribution from individual activators'</span>)
+
+<span class="comment">% We see that each of the actuators yields a distributed force, and that we</span>
+<span class="comment">% can combine these to get the desired distribution.</span>
+
+<span class="comment">% The solution is very easy!</span>
+x=a\b;
+
+<span class="comment">% And we plot it up:</span>
+xerror=x+er*x.*randn(size(x));
+figure(6)
+plot(tmeas,b,<span class="string">'og'</span>,tplot,aplot*x,<span class="string">'r'</span>,tplot,aplot*xerror,<span class="string">'k'</span>)
+xlabel(<span class="string">'t'</span>)
+ylabel(<span class="string">'distribution'</span>)
+legend(<span class="string">'target values'</span>,<span class="string">'actuator results'</span>,[<span class="string">'with '</span>,num2str(er),<span class="string">' error'</span>])
+title([<span class="string">'Combined Distribution from '</span>,num2str(nact),<span class="string">' Actuators'</span>])
+
+<span class="comment">% This works just about as well as the larger number of actuators and is</span>
+<span class="comment">% far less sensitive to error!  It goes to show that more is not</span>
+<span class="comment">% necessarily better when it comes to stability!</span>
+echo <span class="string">off</span>
+</pre><pre class="codeoutput">nact=5;
+
+tact=linspace(1/nact/2,1-1/nact/2,nact)'; %Where we put the actuators
+a=zeros(nmeas,nact); %The array for calculation of the solution vector
+aplot=zeros(length(tplot),nact); %The array for plotting purposes
+
+for j=1:nact
+    a(:,j)=pdf('normal',tmeas,tact(j),2/nact);
+    aplot(:,j)=pdf('normal',tplot,tact(j),2/nact);
+    % We take the actuator distribution to be normal, with a s.d. equal to
+    % twice the spacing, so there is a bit of overlap
+    echo off
+%Now let's plot up the distribution of all the actuators:
+figure(5)
+plot(tplot,aplot)
+xlabel('t')
+ylabel('distribution')
+title('Distribution from individual activators') 
+
+% We see that each of the actuators yields a distributed force, and that we
+% can combine these to get the desired distribution.  
+% The solution is very easy!
+x=a\b;
+
+% And we plot it up:
+xerror=x+er*x.*randn(size(x));
+figure(6)
+plot(tmeas,b,'og',tplot,aplot*x,'r',tplot,aplot*xerror,'k')
+xlabel('t')
+ylabel('distribution')
+legend('target values','actuator results',['with ',num2str(er),' error'])
+title(['Combined Distribution from ',num2str(nact),' Actuators'])
+
+% This works just about as well as the larger number of actuators and is
+% far less sensitive to error!  It goes to show that more is not
+% necessarily better when it comes to stability!
+echo off
+</pre><img vspace="5" hspace="5" src="example7_05.png" alt=""> <img vspace="5" hspace="5" src="example7_06.png" alt=""> <p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2014b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% Demonstration of Unstable Control
+% In this example we are exploring what happens if you have too many
+% sensors and actuators in a control problem.  Suppose we are trying to
+% achieve a particular profile by the linear superposition of a
+% distribution of Gaussian impulses.  As an example, suppose each actuator
+% is a hammer which delivers a force distributed over some range (standard
+% deviation of the Gaussian impulse), and whose magnitude is the adjustable
+% parameter we want to solve for.  The idea is to determine the
+% distribution of impulse strengths (force applied to each of the hammers)
+% that yields the desired force distribution over the entire range from 0 
+% to 1.  We will explore the dependence of the solution on the size of the 
+% problem (number of actuators and number of points at which the force is 
+% evaluated).
+pause
+
+%% Part 1: Setting up the problem
+% We begin by setting up the array of actuators and measurement points
+% (points where we will match the distribution) as well as an array for
+% plotting purposes:
+
+echo on
+nact=20;
+nmeas=25;
+
+tact=linspace(1/nact/2,1-1/nact/2,nact)'; %Where we put the actuators
+tmeas=linspace(0,1,nmeas)'; %Where we do the measurements
+tplot=[0:.001:1]'; %an array we will use for plotting things up.
+
+% OK, now we want to construct the matrices representing the impulse array.
+% We will do this both for the points where we will "measure" the
+% distribution, as well as a more closely spaced array for plotting
+% purposes:
+
+a=zeros(nmeas,nact); %The array for calculation of the solution vector
+aplot=zeros(length(tplot),nact); %The array for plotting purposes
+
+for j=1:nact
+    a(:,j)=pdf('normal',tmeas,tact(j),2/nact);
+    aplot(:,j)=pdf('normal',tplot,tact(j),2/nact);
+    % We take the actuator distribution to be normal, with a s.d. equal to
+    % twice the spacing, so there is a bit of overlap
+    echo off
+end
+
+echo on
+%Now let's plot up the distribution of all the actuators:
+figure(1)
+plot(tplot,aplot)
+xlabel('t')
+ylabel('distribution')
+title('Distribution from individual activators') 
+
+% We see that each of the actuators yields a distributed force, and that we
+% can combine these to get the desired distribution.  
+pause
+echo off
+
+%% Part 2: The actuator distribution
+% Now we need to determine the amplitude of each activator that achieves
+% some distribution of measured values.  We shall use a quadratic
+% distribution over the domain [0,1] as our target.
+
+echo on
+% We set up the right hand side vector:
+
+b=2+2*tmeas.^2; %for calculation of x
+bplot=2+2*tplot.^2; %for plotting purposes
+
+% The solution is very easy!
+x=a\b;
+
+% And we plot it up:
+figure(2)
+plot(tmeas,b,'og',tplot,aplot*x,'r')
+xlabel('t')
+ylabel('distribution')
+legend('target values','actuator results')
+title(['Combined Distribution from ',num2str(nact),' Actuators'])
+
+% This -looks- fine, but we actually have a big problem: The magnitude of
+% the solution vector x is getting huge!
+pause
+
+% We can see the problem if we look at the solution vector x:
+x
+
+% Note that while we are trying to get "positive" force everywhere, some of
+% the coefficients are negative: equivalent to banging on the other side of
+% the plate to get forces to cancel out!  We are also very sensitive to
+% errors in x.  Suppose we have a small 0.1% error in each value.  What would
+% our system look like then?
+
+pause
+
+er=0.0005;
+xerror=x+er*x.*randn(size(x));
+figure(2)
+plot(tmeas,b,'og',tplot,aplot*x,'r',tplot,aplot*xerror,'k')
+xlabel('t')
+ylabel('distribution')
+legend('target values','actuator results',['with ',num2str(er),' error'])
+title(['Combined Distribution from ',num2str(nact),' Actuators'])
+
+echo off
+
+%% Part 3: The fix: SVD
+% The difficulty with the problem was that with all these actuators, the
+% matrix was actually close to singularity.  Let's do SVD and look at this,
+% as well as figuring out how to fix it!
+
+echo on
+
+% First, we do SVD:
+[u s v]=svd(a);
+
+% And we plot up the singular values:
+ds=diag(s);
+figure(3)
+plot(abs(ds))
+xlabel('n')
+ylabel('singular value (magnitude)')
+title('Plot of singular values')
+
+% As you can see, the higher singular values drop off pretty quickly.  It
+% is the last few that are causing all the trouble.
+pause
+
+% We can fix the problem by only keeping some of the singular values:
+nkeep=ceil(nact/1.5); %We use 2/3 of them
+smod=zeros(size(s));
+smod(1:nkeep,1:nkeep)=diag(ds(1:nkeep));
+
+amod=u*smod*v'; %The modified matrix a with only the larger singular values
+xmod=amod\b %The new solution vector
+
+% Where all the values are much smaller!
+pause
+
+% Now we see how we do (with error as well):
+xmoderror=xmod+er*xmod.*randn(size(x));
+
+figure(4)
+plot(tmeas,b,'og',tplot,aplot*xmod,'r',tplot,aplot*xmoderror,'k')
+xlabel('t')
+ylabel('distribution')
+legend('target values','actuator results',['with ',num2str(er),' error'])
+title(['Combined Distribution from Actuators with ',num2str(nkeep),' singular values'])
+
+% So we don't exactly match the desired distribution with a reduced number
+% of singular values, but we are very close - and we aren't sensitive to
+% errors in the solution vector.  This is important for control problems
+% where actuators aren't perfect, and thus if you have a solution matrix
+% that is close to singularity, you will wind up getting instabilities in
+% the thing you are trying to control.  By using the reduced problem, you
+% are essentially controlling all the actuators in a pattern corresponding
+% to the first nkeep columns of the matrix V, rather than controlling all
+% of them individually.
+pause
+
+echo off
+
+%% Part 4: Smaller numbers of actuators
+% It is interesting to see what happens if you have a much smaller number
+% of actuators acting over a larger area.  We can easily use some "cut and
+% paste" to change this:
+
+echo on
+nact=5;
+
+tact=linspace(1/nact/2,1-1/nact/2,nact)'; %Where we put the actuators
+a=zeros(nmeas,nact); %The array for calculation of the solution vector
+aplot=zeros(length(tplot),nact); %The array for plotting purposes
+
+for j=1:nact
+    a(:,j)=pdf('normal',tmeas,tact(j),2/nact);
+    aplot(:,j)=pdf('normal',tplot,tact(j),2/nact);
+    % We take the actuator distribution to be normal, with a s.d. equal to
+    % twice the spacing, so there is a bit of overlap
+    echo off
+end
+
+echo on
+%Now let's plot up the distribution of all the actuators:
+figure(5)
+plot(tplot,aplot)
+xlabel('t')
+ylabel('distribution')
+title('Distribution from individual activators') 
+
+% We see that each of the actuators yields a distributed force, and that we
+% can combine these to get the desired distribution.  
+
+% The solution is very easy!
+x=a\b;
+
+% And we plot it up:
+xerror=x+er*x.*randn(size(x));
+figure(6)
+plot(tmeas,b,'og',tplot,aplot*x,'r',tplot,aplot*xerror,'k')
+xlabel('t')
+ylabel('distribution')
+legend('target values','actuator results',['with ',num2str(er),' error'])
+title(['Combined Distribution from ',num2str(nact),' Actuators'])
+
+% This works just about as well as the larger number of actuators and is
+% far less sensitive to error!  It goes to show that more is not
+% necessarily better when it comes to stability!
+echo off
+
+
+##### SOURCE END #####
+--></body></html>

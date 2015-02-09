@@ -20,6 +20,7 @@ The following notebooks provide links and tools to access relevant level, flow, 
 
 ### Mitigation through Advanced Control and Optimization ###
 
+* [Lumped Parameter Model for Lake Dynamics](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Lumped_Parameter_Model_for_Lake_Dynamics.ipynb)
 * [Harmonizing Rule Curves to Seasonal Inflows]
 * [Feedforward Control for the Dam at International Falls]
 * [Model Predictive Control of Dams at Kettle Falls and International Falls]
