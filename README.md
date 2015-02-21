@@ -8,6 +8,7 @@ The following notebooks provide links and tools to access relevant level, flow, 
 * [Rainy River Flows](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Rainy_River_Flows.ipynb)
 * [Global Historical Climatology Network](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Global_Historical_Climatology_Network.ipynb)
 * [Rule Curves for Rainy and Namakan Lakes](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Rule_Curves_for_Rainy_and_Namakan_Lakes.ipynb)
+* [Stage-Volume Relationships for Rainy and Namakan Lakes](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Stage-Volume_Relationships.ipynb)
 
 ### Changes in Lake Level Behavior 1970-2010 ###
 
