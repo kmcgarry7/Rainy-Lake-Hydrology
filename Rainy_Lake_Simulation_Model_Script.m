@@ -1,59 +1,71 @@
 %% Rainy Lake Simulation Model
+% Use this script to load the simulation data for the Simulink model
+% Rainy_Lake_Simulation_Model.slx and display the results. The script loads
+% historical inflow, outflow, and height data from RLEstimates.csv located
+% in an accompanying data directory.
 
+%% Load Data
 
-%% Rainy Lake Stage-Volume
+RLTable = readtable('./data/RLEstimates.csv');
 
-hRL_data = [335.0 336.0 336.5 337.0 337.5 338.0 339.0 340.0];
-vRL_data = [112.67 798.00 1176.42 1577.25 2002.06 2450.57 3416.85 4458.97];
+dates = datenum(RLTable{:,1});
+H = RLTable{:,2};
+I = RLTable{:,3};
+O = RLTable{:,4};
 
-plot(hRL_data,vRL_data,'b.','Markersize',25);
+plot(dates,H);
 
-hRL = @(v) interp1(vRL_data,hRL_data,v,'PCHIP');
+I = [(1:length(I))',I];
+H = [(1:length(H))',H];
+O = [(1:length(O))',O];
 
-hold on
-vRL = linspace(min(vRL_data),max(vRL_data));
-plot(hRL(vRL),vRL,'r--');
-hold off;
+%% Run Simulation
 
-title('Rainy Lake Stage-Volume')
-xlabel('Elevation [meters]');
-ylabel('Volume [km^3]');
+sim('Rainy_Lake_Simulation_Model');
 
-%% Rainy Lake Stage-Discharge
+%% Plot Results
 
-hQ = [335.40, 336.00, 336.50, 336.75, 337.00, 337.25, ...
-    337.50, 337.75, 338.00, 338.50, 339.00, 339.50, 340.00];
+t = levels.Time + datenum('Jan-01-1970');
+ago = levels.Data(:,1);
+ehl = levels.Data(:,2);
+urc = levels.Data(:,3);
+lrc = levels.Data(:,4);
+edl = levels.Data(:,5);
+rlest = levels.Data(:,6);
+rlhist = levels.Data(:,7);
 
-qQ = [0 399 425 443 589 704 792 909 1014 1156 1324 1550 1778];
-
-
-Qdata = [ 
-    335.40,    0;
-    336.00,  399;
-    336.50,  425;
-    336.75,  443;
-    337.00,  589;
-    337.25,  704;
-    337.50,  792;
-    337.75,  909;
-    338.00, 1014;
-    338.50, 1156;
-    339.00, 1324;
-    339.50, 1550;
-    340.00, 1778];
-
-qRL = @(h) interp1(Qdata(:,1),Qdata(:,2),h);
-
-plot(Qdata(:,2),Qdata(:,1),'b.','Markersize',25);
+figure(1)
+subplot(2,1,1);
+plot(t,urc,'g', ...
+    t,lrc,'g', ...
+    t,ago,'g', ...
+    t,ehl,'g', ...
+    t,edl,'g');
 hold on;
-h = linspace(min(Qdata(:,1)),max(Qdata(:,1)));
-plot(qRL(h),h,'r--');
+plot(t,rlest,'r');
 hold off;
 
-title('Rainy Lake Stage-Discharge');
-xlabel('Discharge [m^3/sec]');
-ylabel('Elevation [meters]');
+datetick('x',12)
+ylim([336.4,338.7])
+title('Rainy Lake Stage - PID control');
 
+subplot(2,1,2);
+plot(t,urc,'g',t,lrc,'g',t,ago,'g',t,edl,'g');
+hold on;
+plot(t,rlhist','b');
+hold off;
 
+datetick('x',12)
+ylim([336.4,338.7])
+title('Rainy Lake Stage - Historical');
+
+print -dpng -r300 images/Rainy_Lake_Simulation_Results
+
+%%
+% figure(2)
+% scatter(rlest,rlhist)
+% hold on
+% plot([336.4 338.8],[336.4 338.8])
+% hold off
 
 
