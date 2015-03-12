@@ -21,9 +21,10 @@ The following notebooks provide links and tools to access relevant level, flow, 
 
 ### Mitigation through Advanced Control and Optimization ###
 
+* Matlab/Simulink Implementation of 2000 Rule Curves[.slx](https://github.com/jckantor/Rainy-Lake-Hydrology/blob/master/Rainy_Lake_Simulation_Model.slx)[.m](https://github.com/jckantor/Rainy-Lake-Hydrology/blob/master/Rainy_Lake_Simulation_Model_Script.m)[data]()
 * [Lumped Parameter Model for Lake Dynamics](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Lumped_Parameter_Model_for_Lake_Dynamics.ipynb)
 * [Harmonizing Rule Curves to Seasonal Inflows]
 * [Feedforward Control for the Dam at International Falls]
 * [Model Predictive Control of Dams at Kettle Falls and International Falls]
-* [Improved Prediction of Inflows]
+
 
