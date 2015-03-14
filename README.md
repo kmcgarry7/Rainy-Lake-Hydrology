@@ -1,3 +1,7 @@
+### Presentations
+
+* [Model predictive control strategies for implementing rule curves for the Namakan Reservoir / Rainy Lake Watershed](http://jckantor.github.io/Rainy-Lake-Hydrology/pdf/Watershed_Forum_2015_Slides.pdf) presented at the 2015 International Rainy-Lake of the Woods Watershed Forum, March 11-12, 2015, International Falls, MN.
+
 ### Data Sources ###
 
 The following notebooks provide links and tools to access relevant level, flow, and precipitation data for an analysis of the hydrology of Rainy Lake. These notebooks 'pickle' relevant data series as Pandas series and dataframes for import into other notebooks. Functions are accessed by running the notebooks in relevant IPython workspace with the `%run -i` command.
@@ -21,7 +25,7 @@ The following notebooks provide links and tools to access relevant level, flow, 
 
 ### Mitigation through Advanced Control and Optimization ###
 
-* Matlab/Simulink Implementation of 2000 Rule Curves[[.slx](https://github.com/jckantor/Rainy-Lake-Hydrology/blob/master/Rainy_Lake_Simulation_Model.slx)][[.m](https://github.com/jckantor/Rainy-Lake-Hydrology/blob/master/Rainy_Lake_Simulation_Model_Script.m)][[data]()]
+* Matlab/Simulink Implementation of 2000 Rule Curves[[.slx](https://github.com/jckantor/Rainy-Lake-Hydrology/blob/master/Rainy_Lake_Simulation_Model.slx)][[.m](https://github.com/jckantor/Rainy-Lake-Hydrology/blob/master/Rainy_Lake_Simulation_Model_Script.m)][[data](http://jckantor.github.io/Rainy-Lake-Hydrology/pdf/Rainy_Lake_Simulation_Model.pdf)]
 * [Lumped Parameter Model for Lake Dynamics](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Lumped_Parameter_Model_for_Lake_Dynamics.ipynb)
 * [Harmonizing Rule Curves to Seasonal Inflows]
 * [Feedforward Control for the Dam at International Falls]

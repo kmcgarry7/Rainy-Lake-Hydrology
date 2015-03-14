@@ -6,14 +6,17 @@
 
 %% Load Data
 
-RLTable = readtable('./data/RLEstimates.csv');
+if exist('RLEstimates.mat')
+    load 'RLEstimates.mat';
+else
+    RLTable = readtable('./data/RLEstimates.csv');
+    save './data/RLEstimates.mat' RLTable
+end
 
 dates = datenum(RLTable{:,1});
 H = RLTable{:,2};
 I = RLTable{:,3};
 O = RLTable{:,4};
-
-plot(dates,H);
 
 I = [(1:length(I))',I];
 H = [(1:length(H))',H];
@@ -21,6 +24,8 @@ O = [(1:length(O))',O];
 
 %% Run Simulation
 
+Rainy_Lake_Simulation_Model;
+set_param('Rainy_Lake_Simulation_Model','IgnoredZcDiagnostic','none');
 sim('Rainy_Lake_Simulation_Model');
 
 %% Plot Results
