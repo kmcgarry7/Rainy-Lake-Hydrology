@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  13 MAR 2015 21:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  15 MAR 2015 08:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1772,111 +1772,113 @@ Overfull \hbox (1.86763pt too wide) in paragraph at lines 480--480
 
 [22
 
+] [23
+
 ]
-Overfull \hbox (1.31699pt too wide) in paragraph at lines 572--572
- [][] 
- []
-
-[23
-
-] <images/800px-MPC_scheme_basic.png, id=210, 803.0pt x 445.665pt>
-File: images/800px-MPC_scheme_basic.png Graphic file (type png)
- <use images/800px-MPC_scheme_basic.png>
-Package pdftex.def Info: images/800px-MPC_scheme_basic.png used on input line 582.
-(pdftex.def)             Requested size: 309.56827pt x 171.81616pt.
-
-Overfull \hbox (2.2784pt too wide) in paragraph at lines 582--582
+Overfull \hbox (1.31699pt too wide) in paragraph at lines 589--589
  [][] 
  []
 
 [24
 
- <./images/800px-MPC_scheme_basic.png>] <images/Rainy_Lake_Simulation_Model.png, id=218, 765.0984pt x 360.8682pt>
-File: images/Rainy_Lake_Simulation_Model.png Graphic file (type png)
- <use images/Rainy_Lake_Simulation_Model.png>
-Package pdftex.def Info: images/Rainy_Lake_Simulation_Model.png used on input line 594.
-(pdftex.def)             Requested size: 309.56827pt x 146.00764pt.
+] <images/800px-MPC_scheme_basic.png, id=216, 803.0pt x 445.665pt>
+File: images/800px-MPC_scheme_basic.png Graphic file (type png)
+ <use images/800px-MPC_scheme_basic.png>
+Package pdftex.def Info: images/800px-MPC_scheme_basic.png used on input line 599.
+(pdftex.def)             Requested size: 309.56827pt x 171.81616pt.
 
-Overfull \hbox (2.2784pt too wide) in paragraph at lines 594--594
+Overfull \hbox (2.2784pt too wide) in paragraph at lines 599--599
  [][] 
  []
 
 [25
 
- <./images/Rainy_Lake_Simulation_Model.png>] <../images/Rainy_Lake_Simulation_Results.png, id=227, 578.16pt x 433.62pt>
-File: ../images/Rainy_Lake_Simulation_Results.png Graphic file (type png)
- <use ../images/Rainy_Lake_Simulation_Results.png>
-Package pdftex.def Info: ../images/Rainy_Lake_Simulation_Results.png used on input line 605.
-(pdftex.def)             Requested size: 236.72954pt x 177.54362pt.
+ <./images/800px-MPC_scheme_basic.png>] <images/Rainy_Lake_Simulation_Model.png, id=225, 765.0984pt x 360.8682pt>
+File: images/Rainy_Lake_Simulation_Model.png Graphic file (type png)
+ <use images/Rainy_Lake_Simulation_Model.png>
+Package pdftex.def Info: images/Rainy_Lake_Simulation_Model.png used on input line 611.
+(pdftex.def)             Requested size: 309.56827pt x 146.00764pt.
 
-Overfull \vbox (3.63258pt too high) detected at line 605
+Overfull \hbox (2.2784pt too wide) in paragraph at lines 611--611
+ [][] 
  []
 
 [26
 
- <../images/Rainy_Lake_Simulation_Results.png (PNG copy)>]
-Overfull \hbox (1.86893pt too wide) in paragraph at lines 704--704
- [][] 
+ <./images/Rainy_Lake_Simulation_Model.png>] <../images/Rainy_Lake_Simulation_Results.png, id=233, 578.16pt x 433.62pt>
+File: ../images/Rainy_Lake_Simulation_Results.png Graphic file (type png)
+ <use ../images/Rainy_Lake_Simulation_Results.png>
+Package pdftex.def Info: ../images/Rainy_Lake_Simulation_Results.png used on input line 622.
+(pdftex.def)             Requested size: 236.72954pt x 177.54362pt.
+
+Overfull \vbox (3.63258pt too high) detected at line 622
  []
 
 [27
 
-]
-File: images/75242923.png Graphic file (type png)
- <use images/75242923.png>
-Package pdftex.def Info: images/75242923.png used on input line 713.
-(pdftex.def)             Requested size: 291.35739pt x 212.40108pt.
-
-Overfull \vbox (17.65079pt too high) detected at line 713
+ <../images/Rainy_Lake_Simulation_Results.png (PNG copy)>]
+Overfull \hbox (1.86893pt too wide) in paragraph at lines 721--721
+ [][] 
  []
 
 [28
 
-] <images/reservoirs.png, id=244, 561.09625pt x 281.05pt>
+]
+File: images/75242923.png Graphic file (type png)
+ <use images/75242923.png>
+Package pdftex.def Info: images/75242923.png used on input line 730.
+(pdftex.def)             Requested size: 291.35739pt x 212.40108pt.
+
+Overfull \vbox (17.65079pt too high) detected at line 730
+ []
+
+[29
+
+] <images/reservoirs.png, id=250, 561.09625pt x 281.05pt>
 File: images/reservoirs.png Graphic file (type png)
  <use images/reservoirs.png>
-Package pdftex.def Info: images/reservoirs.png used on input line 724.
+Package pdftex.def Info: images/reservoirs.png used on input line 741.
 (pdftex.def)             Requested size: 291.35739pt x 145.93669pt.
- [29
-
- <./images/reservoirs.png>] <images/myersFLOOD0618c10_0.jpg, id=251, 1003.75pt x 643.40375pt>
-File: images/myersFLOOD0618c10_0.jpg Graphic file (type jpg)
- <use images/myersFLOOD0618c10_0.jpg>
-Package pdftex.def Info: images/myersFLOOD0618c10_0.jpg used on input line 732.
-(pdftex.def)             Requested size: 426.13629pt x 273.14662pt.
  [30
 
- <./images/myersFLOOD0618c10_0.jpg>] [31
+ <./images/reservoirs.png>] <images/myersFLOOD0618c10_0.jpg, id=257, 1003.75pt x 643.40375pt>
+File: images/myersFLOOD0618c10_0.jpg Graphic file (type jpg)
+ <use images/myersFLOOD0618c10_0.jpg>
+Package pdftex.def Info: images/myersFLOOD0618c10_0.jpg used on input line 749.
+(pdftex.def)             Requested size: 426.13629pt x 273.14662pt.
+ [31
 
-] [32
+ <./images/myersFLOOD0618c10_0.jpg>] [32
+
+] [33
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 799.
+(Font)              size <5> substituted on input line 816.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 799.
+(Font)              size <5> substituted on input line 816.
 
 LaTeX Font Info:    Font shape `T1/npxss/m/it' in size <10> not available
-(Font)              Font shape `T1/npxss/m/sl' tried instead on input line 799.
+(Font)              Font shape `T1/npxss/m/sl' tried instead on input line 816.
 LaTeX Font Info:    Font shape `T1/npxss/m/it' in size <7.3> not available
-(Font)              Font shape `T1/npxss/m/sl' tried instead on input line 799.
+(Font)              Font shape `T1/npxss/m/sl' tried instead on input line 816.
 LaTeX Font Info:    Font shape `T1/npxss/m/it' in size <5.5> not available
-(Font)              Font shape `T1/npxss/m/sl' tried instead on input line 799.
+(Font)              Font shape `T1/npxss/m/sl' tried instead on input line 816.
 
-Overfull \vbox (5.21274pt too high) detected at line 799
+Overfull \vbox (5.21274pt too high) detected at line 816
  []
 
-[33
+[34
 
-] <images/FloodedSunset.jpg, id=273, 3011.25pt x 3011.25pt>
+] <images/FloodedSunset.jpg, id=279, 3011.25pt x 3011.25pt>
 File: images/FloodedSunset.jpg Graphic file (type jpg)
  <use images/FloodedSunset.jpg>
-Package pdftex.def Info: images/FloodedSunset.jpg used on input line 807.
+Package pdftex.def Info: images/FloodedSunset.jpg used on input line 824.
 (pdftex.def)             Requested size: 364.19536pt x 364.18318pt.
- [34
+ [35
 
  <./images/FloodedSunset.jpg>]
 \tf@nav=\write6
@@ -1888,11 +1890,11 @@ Package pdftex.def Info: images/FloodedSunset.jpg used on input line 807.
 \tf@snm=\write8
 \openout8 = `Watershed_Forum_2015_Slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 814.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 814.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 831.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 831.
  (/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2015/.texpadtmp/Watershed_Forum_2015_Slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 814.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 814.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 831.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 831.
 Package rerunfilecheck Info: File `Watershed_Forum_2015_Slides.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -1900,21 +1902,21 @@ Package rerunfilecheck Info: File `Watershed_Forum_2015_Slides.out' has not chan
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 814.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 831.
  ) 
 Here is how much of TeX's memory you used:
- 30987 strings out of 493315
- 660300 string characters out of 6137904
- 830655 words of memory out of 5000000
- 33523 multiletter control sequences out of 15000+600000
- 94950 words of font info for 162 fonts, out of 8000000 for 9000
+ 30994 strings out of 493315
+ 660352 string characters out of 6137904
+ 824658 words of memory out of 5000000
+ 33525 multiletter control sequences out of 15000+600000
+ 96287 words of font info for 165 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  50i,16n,74p,979b,647s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/pxfonts/pxmia.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/newtx/txex-bar.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/txfonts/txexa.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/wasy/wasy10.pfb>
-Output written on "/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2015/.texpadtmp/Watershed_Forum_2015_Slides.pdf" (34 pages, 7463204 bytes).
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/pxfonts/pxmia.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/newtx/txex-bar.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/txfonts/txexa.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/wasy/wasy10.pfb>
+Output written on "/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2015/.texpadtmp/Watershed_Forum_2015_Slides.pdf" (35 pages, 7466065 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 241 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 250 compressed objects within 3 object streams
+ 74 named destinations out of 1000 (max. 500000)
  185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

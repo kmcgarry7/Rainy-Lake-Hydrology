@@ -417,7 +417,7 @@ P(k|k) & = P(k|k-1) - K(k)S(k)K^T(k)
   \draw (Ranier)--++(0,0.25)--++(0.5,-0.5)--++(0,0.5)--++(-0.5,-0.5)--++(0,0.25);
   \draw (Ranier)++(0.25,-1) node {\shortstack{Upper\\ Rainy River}};
   
-  \draw (Kettle)--++(0.25,0)--++(-0.5,-0.5)--++(0.5,0)--++(-0.5,0.5)--++(0.25,0)
+  \draw[fill=yellow!20] (Kettle)--++(0.25,0)--++(-0.5,-0.5)--++(0.5,0)--++(-0.5,0.5)--++(0.25,0)
     ++(0,-0.25)--++(0.5,0)--++(0,-0.25) arc(-90:90:0.25cm)--++(0,-0.25);
   
   \draw (Gold)--++(0.25,0)--++(-0.5,-0.5)--++(0.5,0)--++(-0.5,0.5)--++(0.25,0);
@@ -466,16 +466,33 @@ P(k|k) & = P(k|k-1) - K(k)S(k)K^T(k)
   \draw (NL) ++(2,-1.25) node {\shortstack{Namakan \\ Reservoir}};
   
   % Controller
-    \draw[rounded corners,fill=red!20] (control) 
-      +(-1,-0.75) rectangle +(1,0.75);
-    \draw (control) node {\shortstack{IFD Dam\\ Control}};
+  \draw[rounded corners,fill=red!20] (control) 
+    +(-1,-0.75) rectangle +(1,0.75);
+  \draw (control) node {\shortstack{RL Rule\\ Curve}};
     
-    \draw[rounded corners,fill=red!20] (control2) 
-      +(-1,-0.75) rectangle +(1,0.75);
-    \draw (control2) node {\shortstack{KF Dam\\ Control}};
+  \draw[rounded corners,fill=red!20] (control2) 
+    +(-1,-0.75) rectangle +(1,0.75);
+  \draw (control2) node {\shortstack{NL Rule\\ Curve}};
       
 \end{sansmath}
 \end{tikzpicture}
+
+\end{frame}
+
+%%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6%%%%%%%%%7%%%%%%%%%8
+\begin{frame}{Feasible Rule Curves}
+
+Rainy Lake Balance
+
+\[\frac{dV_{RL}}{dt} = I_{RL} - O_{RL}\]
+
+assume $O_{RL} \leq O^{\max}_{RL}(H_{RL})$. For a feasible rule curve $H_{RL} = {H}^{RC}_{RL}$, and
+
+\[I_{RL} \leq A_{RL}\frac{dH^{RC}_{RL}}{dt} + O^{\max}_{RL}(H^{RC}_{RL})\]
+
+where
+
+\[A_{RL} = \frac{\partial V_{RL}}{\partial H_{RL}}\]
 
 \end{frame}
 
