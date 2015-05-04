@@ -11,6 +11,7 @@ The following notebooks provide links and tools to access relevant level, flow, 
 * Namakan Lake Water Levels [[.ipynb](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Namakan_Lake_Water_Levels.ipynb)]
 * Rainy River Flows [[.ipynb](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Rainy_River_Flows.ipynb)]
 * Global Historical Climatology Network [[.ipynb](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Global_Historical_Climatology_Network.ipynb)]
+* Ice Out Dates [[.ipynb](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Ice_Out_Dates.ipynb)]
 * Rule Curves for Rainy and Namakan Lakes [[.ipynb](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Rule_Curves_for_Rainy_and_Namakan_Lakes.ipynb)]
 * Stage-Volume Relationships for Rainy and Namakan Lakes [[.ipynb](http://nbviewer.ipython.org/github/jckantor/Rainy-Lake-Hydrology/blob/master/Stage-Volume_Relationships.ipynb)]
 
