@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  4 MAY 2015 21:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  6 MAY 2015 18:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1608,7 +1608,7 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 7.52002pt on input line 81.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 11.28003pt on input line 81.
- <images/KettleChannel.jpg, id=22, 3011.25pt x 2258.4375pt>
+ <images/KettleChannel.jpg, id=26, 3011.25pt x 2258.4375pt>
 File: images/KettleChannel.jpg Graphic file (type jpg)
  <use images/KettleChannel.jpg>
 Package pdftex.def Info: images/KettleChannel.jpg used on input line 81.
@@ -1625,14 +1625,14 @@ LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/qhv/b/n' tried instead on input line 100.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 16.24324pt on input line 100.
- <images/WaterBarrelsDock.png, id=44, 475.7775pt x 266.9975pt>
+ <images/WaterBarrelsDock.png, id=50, 475.7775pt x 266.9975pt>
 File: images/WaterBarrelsDock.png Graphic file (type png)
  <use images/WaterBarrelsDock.png>
 Package pdftex.def Info: images/WaterBarrelsDock.png used on input line 100.
 (pdftex.def)             Requested size: 486.78212pt x 273.14662pt.
  [3
 
- <./images/WaterBarrelsDock.png>] <images/75242923.png, id=51, 734.2632pt x 535.2798pt>
+ <./images/WaterBarrelsDock.png>] <images/75242923.png, id=57, 734.2632pt x 535.2798pt>
 File: images/75242923.png Graphic file (type png)
  <use images/75242923.png>
 Package pdftex.def Info: images/75242923.png used on input line 110.
@@ -1643,28 +1643,28 @@ Overfull \vbox (13.98729pt too high) detected at line 110
 
 [4
 
- <./images/75242923.png>] <../images/KINL_MonthyMeanTemp.png, id=57, 558.085pt x 374.39874pt>
+ <./images/75242923.png>] <../images/KINL_MonthyMeanTemp.png, id=63, 558.085pt x 374.39874pt>
 File: ../images/KINL_MonthyMeanTemp.png Graphic file (type png)
  <use ../images/KINL_MonthyMeanTemp.png>
 Package pdftex.def Info: ../images/KINL_MonthyMeanTemp.png used on input line 119.
 (pdftex.def)             Requested size: 273.14651pt x 183.2456pt.
  [5
 
- <../images/KINL_MonthyMeanTemp.png>] <../images/KINL_MonthyStdTemp.png, id=65, 558.085pt x 374.39874pt>
+ <../images/KINL_MonthyMeanTemp.png>] <../images/KINL_MonthyStdTemp.png, id=71, 558.085pt x 374.39874pt>
 File: ../images/KINL_MonthyStdTemp.png Graphic file (type png)
  <use ../images/KINL_MonthyStdTemp.png>
 Package pdftex.def Info: ../images/KINL_MonthyStdTemp.png used on input line 128.
 (pdftex.def)             Requested size: 273.14651pt x 183.2456pt.
  [6
 
- <../images/KINL_MonthyStdTemp.png>] <../images/KINL_TempJan.png, id=73, 558.085pt x 376.40625pt>
+ <../images/KINL_MonthyStdTemp.png>] <../images/KINL_TempJan.png, id=79, 558.085pt x 376.40625pt>
 File: ../images/KINL_TempJan.png Graphic file (type png)
  <use ../images/KINL_TempJan.png>
 Package pdftex.def Info: ../images/KINL_TempJan.png used on input line 137.
 (pdftex.def)             Requested size: 273.14651pt x 184.22816pt.
  [7
 
- <../images/KINL_TempJan.png>] <../images/KINL_Lows.png, id=82, 700.6175pt x 554.07pt>
+ <../images/KINL_TempJan.png>] <../images/KINL_Lows.png, id=88, 700.6175pt x 554.07pt>
 File: ../images/KINL_Lows.png Graphic file (type png)
  <use ../images/KINL_Lows.png>
 Package pdftex.def Info: ../images/KINL_Lows.png used on input line 146.
@@ -1675,7 +1675,7 @@ Overfull \vbox (17.60501pt too high) detected at line 146
 
 [8
 
- <../images/KINL_Lows.png>] <../images/KINL_Highs.png, id=90, 700.6175pt x 554.07pt>
+ <../images/KINL_Lows.png>] <../images/KINL_Highs.png, id=96, 700.6175pt x 554.07pt>
 File: ../images/KINL_Highs.png Graphic file (type png)
  <use ../images/KINL_Highs.png>
 Package pdftex.def Info: ../images/KINL_Highs.png used on input line 155.
@@ -1686,7 +1686,7 @@ Overfull \vbox (17.60501pt too high) detected at line 155
 
 [9
 
- <../images/KINL_Highs.png>] <../images/IceOut_RL.png, id=98, 558.085pt x 374.39874pt>
+ <../images/KINL_Highs.png>] <../images/IceOut_RL.png, id=104, 558.085pt x 374.39874pt>
 File: ../images/IceOut_RL.png Graphic file (type png)
  <use ../images/IceOut_RL.png>
 Package pdftex.def Info: ../images/IceOut_RL.png used on input line 166.
@@ -1697,26 +1697,40 @@ Overfull \vbox (19.68895pt too high) detected at line 166
 
 [10
 
- <../images/IceOut_RL.png>] <../images/IceOut_KL.png, id=106, 558.085pt x 374.39874pt>
+ <../images/IceOut_RL.png>] <../images/IceOut_KL.png, id=112, 558.085pt x 374.39874pt>
 File: ../images/IceOut_KL.png Graphic file (type png)
  <use ../images/IceOut_KL.png>
 Package pdftex.def Info: ../images/IceOut_KL.png used on input line 175.
 (pdftex.def)             Requested size: 273.14651pt x 183.2456pt.
  [11
 
- <../images/IceOut_KL.png>] <../images/IceOut_LOW.png, id=114, 558.085pt x 374.39874pt>
+ <../images/IceOut_KL.png>] <../images/IceOut_LOW.png, id=120, 558.085pt x 374.39874pt>
 File: ../images/IceOut_LOW.png Graphic file (type png)
  <use ../images/IceOut_LOW.png>
 Package pdftex.def Info: ../images/IceOut_LOW.png used on input line 184.
 (pdftex.def)             Requested size: 273.14651pt x 183.2456pt.
  [12
 
- <../images/IceOut_LOW.png>] <images/FloodedSunset.jpg, id=122, 3011.25pt x 3011.25pt>
+ <../images/IceOut_LOW.png>]
+File: images/WaterBarrelsDock.png Graphic file (type png)
+ <use images/WaterBarrelsDock.png>
+Package pdftex.def Info: images/WaterBarrelsDock.png used on input line 192.
+(pdftex.def)             Requested size: 486.78212pt x 273.14662pt.
+ [13
+
+] <../images/IceOutPredictor.png, id=133, 558.085pt x 374.39874pt>
+File: ../images/IceOutPredictor.png Graphic file (type png)
+ <use ../images/IceOutPredictor.png>
+Package pdftex.def Info: ../images/IceOutPredictor.png used on input line 202.
+(pdftex.def)             Requested size: 273.14651pt x 183.2456pt.
+ [14
+
+ <../images/IceOutPredictor.png>] <images/FloodedSunset.jpg, id=141, 3011.25pt x 3011.25pt>
 File: images/FloodedSunset.jpg Graphic file (type jpg)
  <use images/FloodedSunset.jpg>
-Package pdftex.def Info: images/FloodedSunset.jpg used on input line 193.
+Package pdftex.def Info: images/FloodedSunset.jpg used on input line 210.
 (pdftex.def)             Requested size: 364.19536pt x 364.18318pt.
- [13
+ [15
 
  <./images/FloodedSunset.jpg>]
 \tf@nav=\write6
@@ -1728,28 +1742,28 @@ Package pdftex.def Info: images/FloodedSunset.jpg used on input line 193.
 \tf@snm=\write8
 \openout8 = `Watershed_Forum_2016_Slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
  (/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
 Package rerunfilecheck Info: File `Watershed_Forum_2016_Slides.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
  ) 
 Here is how much of TeX's memory you used:
- 33660 strings out of 493117
- 754670 string characters out of 6135433
+ 33678 strings out of 493117
+ 754940 string characters out of 6135433
  921662 words of memory out of 5000000
- 36315 multiletter control sequences out of 15000+600000
+ 36327 multiletter control sequences out of 15000+600000
  28778 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,12n,78p,1030b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on "/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.pdf" (13 pages, 6180481 bytes).
+Output written on "/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.pdf" (15 pages, 6224838 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
