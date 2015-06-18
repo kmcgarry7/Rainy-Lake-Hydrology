@@ -1,7 +1,7 @@
 ### Presentations
 
 * [Model predictive control strategies for implementing rule curves for the Namakan Reservoir / Rainy Lake Watershed](http://jckantor.github.io/Rainy-Lake-Hydrology/pdf/Watershed_Forum_2015_Slides.pdf) presented at the 2015 International Rainy-Lake of the Woods Watershed Forum, March 11-12, 2015, International Falls, MN.
-* [Why is Rainy Lake so Difficult to Control?](http://jckantor.github.io/Rainy-Lake-Hydrology/pdf/Watershed_Forum_2015_Slides.pdf) presented at the 2015 International Rainy-Lake of the Woods Watershed Forum, March 11-12, 2015, International Falls, MN.
+* [Why is Rainy Lake so Difficult to Control?](http://jckantor.github.io/Rainy-Lake-Hydrology/pdf/RLPOA_Open_House_2015_Slides.pdf) presented to the Rainy Lake Property Owners Association, June 18, 2015, La Place Rendez-Vous, Fort Frances, Ontario.
 
 ### Data Sources ###
 
