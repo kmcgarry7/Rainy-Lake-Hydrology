@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  19 JUN 2015 13:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  19 JUN 2015 18:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1935,29 +1935,34 @@ LaTeX Font Info:    Font shape `T1/qhv/m/it' will be
 ]
 File: images/fort-frances-dam.jpg Graphic file (type jpg)
  <use images/fort-frances-dam.jpg>
-Package pdftex.def Info: images/fort-frances-dam.jpg used on input line 784.
+Package pdftex.def Info: images/fort-frances-dam.jpg used on input line 790.
 (pdftex.def)             Requested size: 50.53719pt x 28.45274pt.
 File: images/WaterBarrelsDock.png Graphic file (type png)
  <use images/WaterBarrelsDock.png>
-Package pdftex.def Info: images/WaterBarrelsDock.png used on input line 784.
+Package pdftex.def Info: images/WaterBarrelsDock.png used on input line 790.
 (pdftex.def)             Requested size: 50.69498pt x 28.45274pt.
 File: images/mill.jpg Graphic file (type jpg)
  <use images/mill.jpg>
-Package pdftex.def Info: images/mill.jpg used on input line 784.
+Package pdftex.def Info: images/mill.jpg used on input line 790.
 (pdftex.def)             Requested size: 42.6314pt x 28.45274pt.
 File: images/fort-frances-split.jpg Graphic file (type jpg)
  <use images/fort-frances-split.jpg>
-Package pdftex.def Info: images/fort-frances-split.jpg used on input line 784.
+Package pdftex.def Info: images/fort-frances-split.jpg used on input line 790.
 (pdftex.def)             Requested size: 40.88177pt x 28.45274pt.
 File: images/KettleChannel.jpg Graphic file (type jpg)
  <use images/KettleChannel.jpg>
-Package pdftex.def Info: images/KettleChannel.jpg used on input line 784.
+Package pdftex.def Info: images/KettleChannel.jpg used on input line 790.
 (pdftex.def)             Requested size: 37.90703pt x 28.45274pt.
 File: images/FloodedSunset.jpg Graphic file (type jpg)
  <use images/FloodedSunset.jpg>
-Package pdftex.def Info: images/FloodedSunset.jpg used on input line 784.
+Package pdftex.def Info: images/FloodedSunset.jpg used on input line 790.
 (pdftex.def)             Requested size: 28.44176pt x 28.45274pt.
- [32
+
+Overfull \hbox (33.19472pt too wide) in paragraph at lines 790--790
+ [] 
+ []
+
+[32
 
 ]
 \tf@nav=\write6
@@ -1969,11 +1974,11 @@ Package pdftex.def Info: images/FloodedSunset.jpg used on input line 784.
 \tf@snm=\write8
 \openout8 = `RLPOA_Open_House_2015_Slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 790.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 790.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 796.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 796.
  (/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/RLPOA Open House 2015/.texpadtmp/RLPOA_Open_House_2015_Slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 790.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 790.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 796.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 796.
 Package rerunfilecheck Info: File `RLPOA_Open_House_2015_Slides.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -1981,7 +1986,7 @@ Package rerunfilecheck Info: File `RLPOA_Open_House_2015_Slides.out' has not cha
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 790.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 796.
  )
 (\end occurred inside a group at level 4)
 
@@ -1999,7 +2004,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  58i,12n,78p,1031b,938s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/newpx/a_yi34h6.enc}{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/newpx/TeXGyrePagellaX-Regular.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/tex-gyre/qhvri.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/wasy/wasy10.pfb>
-Output written on "/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/RLPOA Open House 2015/.texpadtmp/RLPOA_Open_House_2015_Slides.pdf" (32 pages, 13067961 bytes).
+Output written on "/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/RLPOA Open House 2015/.texpadtmp/RLPOA_Open_House_2015_Slides.pdf" (32 pages, 13067897 bytes).
 PDF statistics:
  302 PDF objects out of 1000 (max. 8388607)
  219 compressed objects within 3 object streams
