@@ -42,6 +42,13 @@
 \graphicspath{{images/}{../images/}}
 
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6%%%%%%%%%7%%%%%%%%%8
+% Footnote rule
+%%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6%%%%%%%%%7%%%%%%%%%8
+
+\renewcommand{\footnoterule}{%
+}
+
+%%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6%%%%%%%%%7%%%%%%%%%8
 % Default Background Image
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6%%%%%%%%%7%%%%%%%%%8
 
@@ -88,6 +95,9 @@ La Place Rendez-Vous, Fort Frances, Ontario \\
 	{\includegraphics[height=\paperheight]{kingFLOOD0617c4.jpg}}
 
 \begin{frame}{Summer Flooding 2014}
+
+\footnotetext{\color{white}{Photo by Bob King (rking@duluthnews.com)}}
+
 \end{frame}
 }
 
@@ -97,6 +107,9 @@ La Place Rendez-Vous, Fort Frances, Ontario \\
 	{\includegraphics[height=\paperheight]{resort-damage-2.jpg}}
 
 \begin{frame}{}
+
+\footnotetext{\color{white}{Photo by WCCO, CBS Minnesota}}
+  
 \end{frame}
 }
 
@@ -106,6 +119,9 @@ La Place Rendez-Vous, Fort Frances, Ontario \\
 	{\includegraphics[height=\paperheight]{myersFLOOD0618c10_0.jpg}}
 
 \begin{frame}{}
+
+\footnotetext{\color{white}{Photo by John Meyers, Duluth News Tribune}}
+  
 \end{frame}
 }
 
@@ -116,13 +132,7 @@ La Place Rendez-Vous, Fort Frances, Ontario \\
 
 \begin{frame}{1987 Low Water Year}
 
- \begin{minipage}[t][.8\textheight]{\textwidth}
-    \begin{center}
-      \rule{0pt}{0pt}%\includegraphics[scale=0.3]{scs}
-    \end{center}
-    \vfill
-    \color{white}{Photo by Larry Kec}
-  \end{minipage}
+\footnotetext{\color{white}{Photo by Larry Kec}}
 
 \end{frame}
 }
@@ -133,6 +143,7 @@ La Place Rendez-Vous, Fort Frances, Ontario \\
 
 {\usebackgroundtemplate%
 	{\includegraphics[height=\paperheight]{WaterBarrelsDock}}
+\setbeamertemplate{footline}[text line]{some text}
 \section{Impacts of the Rule Curve Change in 2000}
 }
 
@@ -339,7 +350,6 @@ Constrictions at Ranier limit the discharge rate from Rainy Lake
 \end{center}
 
 \end{frame}
-
 
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6%%%%%%%%%7%%%%%%%%%8
 \begin{frame}{Impact of the Rule Curve Change, 1970 - 2000}
@@ -712,6 +722,15 @@ Simulation results show improved control of high and low water events.
 \end{frame}
 
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6%%%%%%%%%7%%%%%%%%%8
+% Section 
+%%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6%%%%%%%%%7%%%%%%%%%8
+
+{\usebackgroundtemplate%
+	{\includegraphics[width=\paperwidth]{FloodedSunset}}
+\section{Discussion}
+}
+
+%%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6%%%%%%%%%7%%%%%%%%%8
 \begin{frame}{Acknowledgements}
 \begin{small}
 \begin{itemize}
@@ -749,13 +768,20 @@ The content of this presentation is the independent work product of the author c
 \end{frame}
 
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6%%%%%%%%%7%%%%%%%%%8
-% Section 
-%%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6%%%%%%%%%7%%%%%%%%%8
+\begin{frame}{Additional Photo Credits}
 
-{\usebackgroundtemplate%
-	{\includegraphics[width=\paperwidth]{FloodedSunset}}
-\section{Discussion}
-}
+\begin{center}
+\begin{tabular}{rl}
+\includegraphics[height=1cm]{fort-frances-dam.jpg} & Lee Grim/International Joint Commission \\
+\includegraphics[height=1cm]{WaterBarrelsDock} & Melody Hensel \\
+\includegraphics[height=1cm]{mill.jpg} & Mike's Fly In: http://www.vg-m.de/mill.jpg \\
+\includegraphics[height=1cm]{fort-frances-split.jpg} & h2opower.ca\\
+\includegraphics[height=1cm]{KettleChannel.jpg} & Jeff Kantor \\
+\includegraphics[height=1cm]{FloodedSunset.jpg} & Jeff Kantor \\
+\end{tabular}
+\end{center}
+	
+\end{frame}
 
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6%%%%%%%%%7%%%%%%%%%8
 % End of Document
@@ -784,7 +810,3 @@ Raft Lake Dame & \\
 \end{center}
 	
 \end{frame}
-
-
-Status API Training Shop Blog About Help
-© 2015 GitHub, Inc. Terms Privacy Security Contact
