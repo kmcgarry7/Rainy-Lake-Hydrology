@@ -13,5 +13,5 @@ USER main
 # Install python libraries
 
 RUN pip install seaborn
-RUN pip install --upgrade pandas-datareader
-RUN pip install ipywidgets
+#RUN pip install --upgrade pandas-datareader
+#RUN pip install ipywidgets
