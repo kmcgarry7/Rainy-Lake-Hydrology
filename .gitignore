@@ -1,4 +1,8 @@
+# hidden files
+.DS_Store
 .ipynb_checkpoints/
 notebooks/.ipynb_checkpoints/
+
+
 references/
 *.csv
