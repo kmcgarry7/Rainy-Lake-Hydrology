@@ -1,5 +1,9 @@
 # Rainy Lake Hydrology
 
+<p align="center">
+<img src="./images/1200px-Rainy_Lake_at_Kettle_Falls.jpg" width = 480>
+</p>
+
 A collection of computational notebooks analyzing the hydrology of Rainy Lake on the Minnesota/Ontario border.
 
 ## Usage
@@ -25,10 +29,10 @@ A summary of presentations based on the data and calculations in this repository
 The following notebooks provide tools to access relevant level, flow, and precipitation data for an analysis of the hydrology of Rainy Lake. These notebooks 'pickle' relevant data series as Pandas series and dataframes for import into other notebooks.
 
 * [Water Survey of Canada](notebooks/Water_Survey_of_Canada.ipynb). Reads data from the HYDAT data tables stored in CSV format. Creates a local HDF cache `data/hydat.h5` in the local repository for a given set of flow and level stations.
-* [Namakan Lake Water Levels](notebooks/Namakan_Lake_Water_Levels.ipynb). Reads the WSC data cache to create a time series `data/NL.pkl` of historical levels for Namakan Lake. Lake level data from the Bear's Pass and Fort Frances stations are reconcilded to produce a conensus estimate.
+* [Namakan Lake Water Levels](notebooks/Namakan_Lake_Water_Levels.ipynb). Reads the WSC data cache to create a time series `data/NL.pkl` of historical levels for Namakan Lake. Level data from stations located at Namakan Lake above Kettle Falls and at Squirrel Island and are concatenated, with means used for overlapping dates.
 * [Rainy Lake Water Levels](notebooks/Rainy_Lake_Water_Levels.ipynb). Reads the WSC data cache to create a reconciled time series `data/RL.pkl` of historical levels for Rainy Lake.  The difference in reconciled measurements at Bear's Pass and Fort Frances is used to estimate a standard error for lake level measurement.
 * [Rainy River Flows](notebooks/Rainy_River_Flows.ipynb). Reads the WSC data cache to create a time series `data/RR.pkl` of historical flows for Rainy River.  
-* [Global Historical Climatology Network](notebooks/Global_Historical_Climatology_Network.ipynb). Provides historical preciptation records for station KINL located at International Falls, Minnesota.
+* [Global Historical Climatology Network](notebooks/Global_Historical_Climatology_Network.ipynb). Reads historical temperature and preciptation records for station KINL located at International Falls, Minnesota.
 * [Ice Out Dates](notebooks/Ice_Out_Dates.ipynb). Creation of time series for historical ice-out dates on Rainy Lake using data from the Minnesota DNR.
 * [Rule Curves for Rainy and Namakan Lakes](notebooks/Rule_Curves_for_Rainy_and_Namakan_Lakes.ipynb). Create a time series representation of rule curves for Rainy and Namakan Lakes.
 * [Stage-Volume Relationships for Rainy and Namakan Lakes](notebooks/Stage-Volume_Relationships.ipynb). Regression of Stage-Volume data from the International Joint Commission for Rainy and Namakan Lakes.
