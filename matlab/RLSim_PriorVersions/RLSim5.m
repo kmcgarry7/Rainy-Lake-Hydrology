@@ -24,9 +24,11 @@ O = [(1:length(O))',O];
 
 %% Run Simulation
 
-Rainy_Lake_Simulation_Model;
+RLSim5;
 set_param('RLSim5','IgnoredZcDiagnostic','none');
-sim('Rainy_Lake_Simulation_Model');
+sim('RLSim5'); 
+
+print -dpng -sRLSim5 '../images/RLSim5_Model.png'
 
 %% Plot Results
 
@@ -40,6 +42,11 @@ rlest = levels.Data(:,6);
 rlhist = levels.Data(:,7);
 
 figure(1)
+h= gcf;
+set(h,'ReSize','off');
+set(h,'PaperUnits','centimeters');
+set(h,'PaperSize',[25 6]); % IEEE columnwidth = 9cm
+
 subplot(2,1,1);
 plot(t,urc,'g', ...
     t,lrc,'g', ...
@@ -47,25 +54,24 @@ plot(t,urc,'g', ...
     t,ehl,'g', ...
     t,edl,'g');
 hold on;
-plot(t,rlest,'r','LineWidth',1.4);
+plot(t,rlest,'r','LineWidth',1.0);
 hold off;
 
 datetick('x',12)
-ylim([336.4,338.7])
+datetick('x','yy','keepticks')
+ylim([336.4,338.8])
 title('MPC for Rainy Lake Level', 'FontSize',16);
 
 subplot(2,1,2);
 plot(t,urc,'g',t,lrc,'g',t,ago,'g',t,edl,'g');
 hold on;
-plot(t,rlhist','b','LineWidth',1.4);
+plot(t,rlhist','b','LineWidth',1.0);
 hold off;
 
 datetick('x',12)
 datetick('x','yy','keepticks')
-ylim([336.4,338.7])
+ylim([336.4,338.8])
 title('Historical Levels', 'FontSize',16);
 
-print -dpng -r300 '../images/RLSim.png'
-
-
+print -dpng -r300 '../images/RLSim5_Results.png'
 

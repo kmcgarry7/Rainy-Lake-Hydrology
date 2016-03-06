@@ -24,9 +24,11 @@ O = [(1:length(O))',O];
 
 %% Run Simulation
 
-Rainy_Lake_Simulation_Model;
 set_param('RLSim5','IgnoredZcDiagnostic','none');
-sim('Rainy_Lake_Simulation_Model');
+RLSim5;
+sim('RLSim5'); 
+
+print -dpng -sRLSim5 '../images/RLSim5_Model.png'
 
 %% Plot Results
 
@@ -36,10 +38,15 @@ ehl = levels.Data(:,2);
 urc = levels.Data(:,3);
 lrc = levels.Data(:,4);
 edl = levels.Data(:,5);
-rlest = levels.Data(:,6);
-rlhist = levels.Data(:,7);
+rl_sim = levels.Data(:,6);
+rl_hist = levels.Data(:,7);
 
 figure(1)
+h= gcf;
+set(h,'ReSize','off');
+set(h,'PaperUnits','centimeters');
+set(h,'PaperSize',[25 6]); % IEEE columnwidth = 9cm
+
 subplot(2,1,1);
 plot(t,urc,'g', ...
     t,lrc,'g', ...
@@ -47,25 +54,56 @@ plot(t,urc,'g', ...
     t,ehl,'g', ...
     t,edl,'g');
 hold on;
-plot(t,rlest,'r','LineWidth',1.4);
+plot(t,rl_sim,'r','LineWidth',1.0);
 hold off;
 
 datetick('x',12)
-ylim([336.4,338.7])
+datetick('x','yy','keepticks')
+ylim([336.4,338.8])
 title('MPC for Rainy Lake Level', 'FontSize',16);
 
 subplot(2,1,2);
 plot(t,urc,'g',t,lrc,'g',t,ago,'g',t,edl,'g');
 hold on;
-plot(t,rlhist','b','LineWidth',1.4);
+plot(t,rl_hist','b','LineWidth',1.0);
 hold off;
 
 datetick('x',12)
 datetick('x','yy','keepticks')
-ylim([336.4,338.7])
+ylim([336.4,338.8])
 title('Historical Levels', 'FontSize',16);
 
-print -dpng -r300 '../images/RLSim.png'
+print -dpng -r300 '../images/RLSim5_Results.png'
 
+%% Store Results
+
+t = levels.Time + datenum('Jan-01-1970');
+ago = levels.Data(:,1);
+ehl = levels.Data(:,2);
+urc = levels.Data(:,3);
+lrc = levels.Data(:,4);
+edl = levels.Data(:,5);
+rl_sim = levels.Data(:,6);
+rl_hist = levels.Data(:,7);
+
+outflow_sim = flows.Data(:,1);
+inflow_sim = flows.Data(:,2);
+outflow_hist = flows.Data(:,3);
+
+RLSim5_Results = table( ...
+    datestr(t), ...
+    ago, ...
+    ehl, ...
+    urc, ...
+    lrc, ...
+    edl, ...
+    rl_sim, ...
+    rl_hist, ...
+    outflow_sim, ...
+    inflow_sim, ...
+    outflow_hist ...
+ );
+
+writetable(RLSim5_Results,'../data/RLSim5_Results.csv')
 
 

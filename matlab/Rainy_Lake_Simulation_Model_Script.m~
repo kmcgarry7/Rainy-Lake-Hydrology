@@ -25,7 +25,7 @@ O = [(1:length(O))',O];
 %% Run Simulation
 
 Rainy_Lake_Simulation_Model;
-set_param('RLSim5','IgnoredZcDiagnostic','none');
+set_param('Rainy_Lake_Simulation_Model','IgnoredZcDiagnostic','none');
 sim('Rainy_Lake_Simulation_Model');
 
 %% Plot Results
@@ -47,25 +47,30 @@ plot(t,urc,'g', ...
     t,ehl,'g', ...
     t,edl,'g');
 hold on;
-plot(t,rlest,'r','LineWidth',1.4);
+plot(t,rlest,'r');
 hold off;
 
 datetick('x',12)
 ylim([336.4,338.7])
-title('MPC for Rainy Lake Level', 'FontSize',16);
+title('Rainy Lake Stage - PID control');
 
 subplot(2,1,2);
 plot(t,urc,'g',t,lrc,'g',t,ago,'g',t,edl,'g');
 hold on;
-plot(t,rlhist','b','LineWidth',1.4);
+plot(t,rlhist','b');
 hold off;
 
 datetick('x',12)
-datetick('x','yy','keepticks')
 ylim([336.4,338.7])
-title('Historical Levels', 'FontSize',16);
+title('Rainy Lake Stage - Historical');
 
-print -dpng -r300 '../images/RLSim.png'
+print -dpng -r300 images/Rainy_Lake_Simulation_Results
 
+%%
+% figure(2)
+% scatter(rlest,rlhist)
+% hold on
+% plot([336.4 338.8],[336.4 338.8])
+% hold off
 
 
