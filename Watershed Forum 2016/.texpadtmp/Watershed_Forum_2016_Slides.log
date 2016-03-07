@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  6 MAY 2015 18:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  6 MAR 2016 22:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1060,273 +1060,7 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/newpx/newpxtext.sty
-Package: newpxtext 2014/04/04 v1.122
- `newpxtext' v1.122, 2014/04/04 Text macros based on pxfonts (msharpe) (/usr/local/texlive/2014/texmf-dist/tex/latex/fontaxes/fontaxes.sty
-Package: fontaxes 2014/03/23 v1.0d Font selection axes
-LaTeX Info: Redefining \upshape on input line 29.
-LaTeX Info: Redefining \itshape on input line 31.
-LaTeX Info: Redefining \slshape on input line 33.
-LaTeX Info: Redefining \scshape on input line 37.
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/05/09 v2.6d package option processing (HA)
- (/usr/local/texlive/2014/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-\XKV@toks=\toks57
-\XKV@tempa@toks=\toks58
-\XKV@depth=\count213
-File: xkeyval.tex 2014/05/09 v2.6d key=value parser (HA)
-)) (/usr/local/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-)) (/usr/local/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encoding TS1
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00A8 (decimal 168)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AC (decimal 172)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00AF (decimal 175)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B1 (decimal 177)
-   defining Unicode char U+00B2 (decimal 178)
-   defining Unicode char U+00B3 (decimal 179)
-   defining Unicode char U+00B4 (decimal 180)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00B9 (decimal 185)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00D7 (decimal 215)
-   defining Unicode char U+00F7 (decimal 247)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+02C7 (decimal 711)
-   defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+02DD (decimal 733)
-   defining Unicode char U+0E3F (decimal 3647)
-   defining Unicode char U+2016 (decimal 8214)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+203B (decimal 8251)
-   defining Unicode char U+203D (decimal 8253)
-   defining Unicode char U+2044 (decimal 8260)
-   defining Unicode char U+204E (decimal 8270)
-   defining Unicode char U+2052 (decimal 8274)
-   defining Unicode char U+20A1 (decimal 8353)
-   defining Unicode char U+20A4 (decimal 8356)
-   defining Unicode char U+20A6 (decimal 8358)
-   defining Unicode char U+20A9 (decimal 8361)
-   defining Unicode char U+20AB (decimal 8363)
-   defining Unicode char U+20AC (decimal 8364)
-   defining Unicode char U+20B1 (decimal 8369)
-   defining Unicode char U+2103 (decimal 8451)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2117 (decimal 8471)
-   defining Unicode char U+211E (decimal 8478)
-   defining Unicode char U+2120 (decimal 8480)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2126 (decimal 8486)
-   defining Unicode char U+2127 (decimal 8487)
-   defining Unicode char U+212E (decimal 8494)
-   defining Unicode char U+2190 (decimal 8592)
-   defining Unicode char U+2191 (decimal 8593)
-   defining Unicode char U+2192 (decimal 8594)
-   defining Unicode char U+2193 (decimal 8595)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+2422 (decimal 9250)
-   defining Unicode char U+25E6 (decimal 9702)
-   defining Unicode char U+25EF (decimal 9711)
-   defining Unicode char U+266A (decimal 9834)
-))
-LaTeX Info: Redefining \oldstylenums on input line 266.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
-)) (/usr/local/texlive/2014/texmf-dist/tex/latex/newpx/newpxmath.sty
-Package: newpxmath 2014/04/04 v1.122
- `newpxmath' v1.122, 2014/04/04 Math macros based on pxfonts (msharpe) (/usr/local/texlive/2014/texmf-dist/tex/generic/kastrup/binhex.tex)
-\px@Isdigit=\count214
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 57.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 57.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> T1/zplx/m/n on input line 57.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 57.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/zplx/m/n on input line 57.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/zplx/m/n --> T1/zplx/b/n on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/qhv/m/n on input line 61.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/qhv/m/n on input line 61.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 62.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/zplx/m/it on input line 62.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/zplx/m/it on input line 62.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 63.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/npxtt/m/n on input line 63.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/npxtt/m/n on input line 63.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 65.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/zplx/b/n on input line 65.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/zplx/b/n on input line 65.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/zplx/m/it --> T1/zplx/b/it on input line 66.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/qhv/m/n --> T1/qhv/b/n on input line 68.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/npxtt/m/n --> T1/npxtt/b/n on input line 69.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 75.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/npxmi/m/it on input line 75.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/npxmi/m/it on input line 75.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/npxmi/m/it --> OML/npxmi/b/it on input line 76.
-\symlettersA=\mathgroup7
-LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
-(Font)                  U/npxmia/m/it --> U/npxmia/b/it on input line 83.
-LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 85.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 92.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/npxsy/m/n on input line 92.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/npxsy/m/n on input line 92.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/npxsy/m/n --> OMS/npxsy/b/n on input line 93.
-LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 108.
-LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
-(Font)                  U/msa/m/n --> U/npxsya/m/n on input line 108.
-LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/msa/m/n --> U/npxsya/m/n on input line 108.
-LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/npxsya/m/n --> U/npxsya/b/n on input line 109.
-LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 117.
-LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
-(Font)                  U/msb/m/n --> U/npxsyb/m/n on input line 117.
-LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/msb/m/n --> U/npxsyb/m/n on input line 117.
-LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/npxsyb/m/n --> U/npxsyb/b/n on input line 118.
-\symsymbolsC=\mathgroup8
-LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
-(Font)                  U/npxsyc/m/n --> U/npxsyc/b/n on input line 129.
-Now handling font encoding LMX ...
-... no UTF-8 mapping file for font encoding LMX
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 149.
-LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 149.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> LMX/npxexx/m/n on input line 149.
-LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 149.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> LMX/npxexx/m/n on input line 149.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  LMX/npxexx/m/n --> LMX/npxexx/b/n on input line 150.
-\symlargesymbolsPXA=\mathgroup9
-LaTeX Font Info:    Overwriting symbol font `largesymbolsPXA' in version `bold'
-(Font)                  U/npxexa/m/n --> U/npxexa/b/n on input line 165.
-LaTeX Info: Redefining \not on input line 1358.
-LaTeX Info: Redefining \textsquare on input line 1378.
-LaTeX Info: Redefining \openbox on input line 1379.
-) (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.0 (rcs-revision 1.2)
  (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
 File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.0 (rcs-revision 1.13)
@@ -1339,22 +1073,22 @@ File: tikzlibrarymindmap.code.tex 2013/07/16 v3.0.0 (rcs-revision 1.10)
  (/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees.code.tex
 File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.0 (rcs-revision 1.2)
 )) (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count215
+\lst@mode=\count213
 \lst@gtempboxa=\box88
-\lst@token=\toks59
-\lst@length=\count216
+\lst@token=\toks57
+\lst@length=\count214
 \lst@currlwidth=\dimen268
-\lst@column=\count217
-\lst@pos=\count218
+\lst@column=\count215
+\lst@pos=\count216
 \lst@lostspace=\dimen269
 \lst@width=\dimen270
-\lst@newlines=\count219
-\lst@lineno=\count220
+\lst@newlines=\count217
+\lst@lineno=\count218
 \lst@maxwidth=\dimen271
  (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
-\c@lstnumber=\count221
-\lst@skipnumbers=\count222
+\c@lstnumber=\count219
+\lst@skipnumbers=\count220
 \lst@framebox=\box89
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2014/03/04 1.5c listings configuration
@@ -1373,7 +1107,7 @@ Package: babel 2014/03/24 3.9k The Babel package
 Language: english 2012/08/20 v3.3p English support from the babel system
  (/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2014/03/24 3.9k Babel common definitions
-\babel@savecnt=\count223
+\babel@savecnt=\count221
 \U@D=\dimen272
 LaTeX Info: Redefining \textlatin on input line 1428.
 )
@@ -1382,65 +1116,36 @@ LaTeX Info: Redefining \textlatin on input line 1428.
 \l@newzealand = a dialect from \language\l@british 
 )) (/usr/local/texlive/2014/texmf-dist/tex/latex/sansmath/sansmath.sty
 Package: sansmath 2007/02/28  ver 1.1 Donald Arseneau
-\c@mv@sans=\count224
+\c@mv@sans=\count222
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `sans'
-(Font)                  T1/zplx/m/n --> OT1/qhv/m/n on input line 103.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathsfsl' in version `sans'
-(Font)                  OT1/qhv/m/sl --> OT1/qhv/m/sl on input line 104.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `operators' in the math version `sans' on input line 105.
+(Font)                  OT1/cmss/m/sl --> OT1/cmss/m/sl on input line 104.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `sans'
-(Font)                  T1/zplx/m/n --> OT1/qhv/m/n on input line 105.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 105.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `sans'
-(Font)                  OML/npxmi/m/it --> OML/cmm/m/it on input line 109.
+(Font)                  OML/cmm/m/it --> OML/cmm/m/it on input line 109.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `sans'
-(Font)                  OMS/npxsy/m/n --> OMS/cmsy/m/n on input line 110.
+(Font)                  OMS/cmsy/m/n --> OMS/cmsy/m/n on input line 110.
 LaTeX Font Info:    Overwriting math alphabet `\mathsfbf' in version `sans'
-(Font)                  OT1/qhv/bx/sl --> OT1/qhv/bx/n on input line 112.
-)
-(/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.aux)
+(Font)                  OT1/cmss/bx/sl --> OT1/cmss/bx/n on input line 112.
+) (/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.aux)
 \openout1 = `Watershed_Forum_2016_Slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 62.
-LaTeX Font Info:    Try loading font information for OML+npxmi on input line 62.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/newpx/omlnpxmi.fd
-File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
-)
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/npxsy/m/n on input line 62.
-LaTeX Font Info:    Try loading font information for OMS+npxsy on input line 62.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/newpx/omsnpxsy.fd
-File: omsnpxsy.fd 2013/03/24 Fontinst v1.933 font definitions for OMS/npxsy.
-)
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 62.
-LaTeX Font Info:    Try loading font information for U+npxexa on input line 62.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/newpx/unpxexa.fd
-File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
-)
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 62.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 62.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
-File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-)
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 10.29301pt on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1478,17 +1183,17 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count225
+\scratchcounter=\count223
 \scratchdimen=\dimen273
 \scratchbox=\box90
-\nofMPsegments=\count226
-\nofMParguments=\count227
-\everyMPshowfont=\toks60
-\MPscratchCnt=\count228
+\nofMPsegments=\count224
+\nofMParguments=\count225
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count226
 \MPscratchDim=\dimen274
-\MPnumerator=\count229
-\makeMPintoPDFobject=\count230
-\everyMPtoPDFconversion=\toks61
+\MPnumerator=\count227
+\makeMPintoPDFobject=\count228
+\everyMPtoPDFconversion=\toks59
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
  (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1501,75 +1206,86 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box91
-Package hyperref Info: Link coloring OFF on input line 62.
+Package hyperref Info: Link coloring OFF on input line 70.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count231
+\c@section@level=\count229
 )
-LaTeX Info: Redefining \ref on input line 62.
-LaTeX Info: Redefining \pageref on input line 62.
-LaTeX Info: Redefining \nameref on input line 62.
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
  (/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.out) (/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.out)
 \@outlinefile=\write5
 \openout5 = `Watershed_Forum_2016_Slides.out'.
 
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 62.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  T1/zplx/m/n --> OT1/cmss/m/n on input line 62.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 62.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 70.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/zplx/b/n --> OT1/cmss/bx/n on input line 62.
-\symnumbers=\mathgroup10
-\sympureletters=\mathgroup11
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 70.
+\symnumbers=\mathgroup7
+\sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  T1/zplx/m/n --> T1/zplx/m/n on input line 62.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 62.
+(Font)                  OT1/cmr/m/n --> T1/cmr/m/n on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  T1/zplx/b/n --> T1/qhv/bx/n on input line 62.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/zplx/b/n --> T1/qhv/bx/n on input line 62.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `sans'
-(Font)                  OT1/cmr/bx/n --> T1/qhv/bx/n on input line 62.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 62.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  T1/qhv/m/n --> T1/qhv/m/n on input line 62.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/qhv/b/n --> T1/qhv/m/n on input line 62.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `sans'
-(Font)                  OT1/cmss/m/n --> T1/qhv/m/n on input line 62.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 62.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  T1/zplx/m/it --> T1/qhv/m/it on input line 62.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/zplx/b/it --> T1/qhv/m/it on input line 62.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `sans'
-(Font)                  OT1/cmr/m/it --> T1/qhv/m/it on input line 62.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 62.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 70.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  T1/npxtt/m/n --> T1/npxtt/m/n on input line 62.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/npxtt/b/n --> T1/npxtt/m/n on input line 62.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `sans'
-(Font)                  OT1/cmtt/m/n --> T1/npxtt/m/n on input line 62.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 70.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/qhv/m/n --> T1/qhv/bx/n on input line 62.
+(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 70.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/qhv/m/it --> T1/qhv/bx/it on input line 62.
+(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  T1/zplx/b/n --> T1/zplx/bx/n on input line 62.
+(Font)                  OT1/cmr/bx/n --> T1/cmr/bx/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/qhv/bx/n --> T1/qhv/bx/n on input line 62.
+(Font)                  T1/cmss/bx/n --> T1/cmss/bx/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/qhv/m/n --> T1/qhv/bx/n on input line 62.
+(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/qhv/m/it --> T1/qhv/bx/it on input line 62.
+(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 70.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/npxtt/m/n --> T1/npxtt/bx/n on input line 62.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 70.
+LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
+(Font)              `pureletters' in the math version `normal' on input line 70.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 70.
+LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
+(Font)              `pureletters' in the math version `bold' on input line 70.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  T1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 70.
+LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
+(Font)              `pureletters' in the math version `sans' on input line 70.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `sans'
+(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 70.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 70.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-English.dict
@@ -1583,156 +1299,374 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 62.
+LaTeX Info: Redefining \includegraphics on input line 70.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.10} (current compat level: 1.8).
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 62.
-\c@mv@tabular=\count232
-\c@mv@boldtabular=\count233
-Normal \count register pool exhausted, switching to extended pool.
-\c@lstlisting=\count277
+LaTeX Info: Redefining \selectfont on input line 70.
+\c@lstlisting=\count230
  (/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.nav)
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 62.
-LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <20> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 81.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 18.80005pt on input line 81.
-LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <12> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 81.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 11.28003pt on input line 81.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 81.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 81.
- <images/KettleChannel.jpg, id=26, 3011.25pt x 2258.4375pt>
-File: images/KettleChannel.jpg Graphic file (type jpg)
- <use images/KettleChannel.jpg>
-Package pdftex.def Info: images/KettleChannel.jpg used on input line 81.
-(pdftex.def)             Requested size: 364.18318pt x 273.14662pt.
+
+LaTeX Font Warning: Font shape `T1/cmss/bx/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 89.
+
+<images/20150804_202405.jpg, id=34, 1606.0pt x 1204.5pt>
+File: images/20150804_202405.jpg Graphic file (type jpg)
+ <use images/20150804_202405.jpg>
+Package pdftex.def Info: images/20150804_202405.jpg used on input line 89.
+(pdftex.def)             Requested size: 364.20157pt x 273.14662pt.
  [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/KettleChannel.jpg>] (/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.toc)
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 3.76001pt on input line 92.
- [2
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/20150804_202405.jpg>] (/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.toc) <images/background.png, id=53, 897.3525pt x 566.115pt>
+File: images/background.png Graphic file (type png)
+ <use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 100.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
 
-]
-LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 100.
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 16.24324pt on input line 100.
- <images/WaterBarrelsDock.png, id=50, 475.7775pt x 266.9975pt>
-File: images/WaterBarrelsDock.png Graphic file (type png)
- <use images/WaterBarrelsDock.png>
-Package pdftex.def Info: images/WaterBarrelsDock.png used on input line 100.
-(pdftex.def)             Requested size: 486.78212pt x 273.14662pt.
+
+LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 100.
+
+[2
+
+ <./images/background.png>] <images/20150804_195914.jpg, id=69, 1606.0pt x 1081.03876pt>
+File: images/20150804_195914.jpg Graphic file (type jpg)
+ <use images/20150804_195914.jpg>
+Package pdftex.def Info: images/20150804_195914.jpg used on input line 108.
+(pdftex.def)             Requested size: 405.78749pt x 273.14662pt.
  [3
 
- <./images/WaterBarrelsDock.png>] <images/75242923.png, id=57, 734.2632pt x 535.2798pt>
+ <./images/20150804_195914.jpg>] <images/75242923.png, id=75, 734.2632pt x 535.2798pt>
 File: images/75242923.png Graphic file (type png)
  <use images/75242923.png>
-Package pdftex.def Info: images/75242923.png used on input line 110.
+Package pdftex.def Info: images/75242923.png used on input line 118.
 (pdftex.def)             Requested size: 291.35739pt x 212.40108pt.
 
-Overfull \vbox (13.98729pt too high) detected at line 110
+Overfull \vbox (10.50839pt too high) detected at line 118
  []
 
-[4
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 118.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [4
 
- <./images/75242923.png>] <../images/KINL_MonthyMeanTemp.png, id=63, 558.085pt x 374.39874pt>
-File: ../images/KINL_MonthyMeanTemp.png Graphic file (type png)
- <use ../images/KINL_MonthyMeanTemp.png>
-Package pdftex.def Info: ../images/KINL_MonthyMeanTemp.png used on input line 119.
-(pdftex.def)             Requested size: 273.14651pt x 183.2456pt.
+ <./images/75242923.png>]
+File: images/background.png Graphic file (type png)
+ <use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 135.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [5
 
- <../images/KINL_MonthyMeanTemp.png>] <../images/KINL_MonthyStdTemp.png, id=71, 558.085pt x 374.39874pt>
-File: ../images/KINL_MonthyStdTemp.png Graphic file (type png)
- <use ../images/KINL_MonthyStdTemp.png>
-Package pdftex.def Info: ../images/KINL_MonthyStdTemp.png used on input line 128.
-(pdftex.def)             Requested size: 273.14651pt x 183.2456pt.
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 234.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 234.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 234.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 234.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mathkerncmss.
+)
+Overfull \hbox (1.86763pt too wide) in paragraph at lines 234--234
+ [][] 
+ []
+
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 234.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [6
 
- <../images/KINL_MonthyStdTemp.png>] <../images/KINL_TempJan.png, id=79, 558.085pt x 376.40625pt>
-File: ../images/KINL_TempJan.png Graphic file (type png)
- <use ../images/KINL_TempJan.png>
-Package pdftex.def Info: ../images/KINL_TempJan.png used on input line 137.
-(pdftex.def)             Requested size: 273.14651pt x 184.22816pt.
+] <../images/RuleCurveComparison.png, id=93, 699.5736pt x 409.0482pt>
+File: ../images/RuleCurveComparison.png Graphic file (type png)
+ <use ../images/RuleCurveComparison.png>
+Package pdftex.def Info: ../images/RuleCurveComparison.png used on input line 243.
+(pdftex.def)             Requested size: 291.35739pt x 170.35727pt.
+File: images/background.png Graphic file (type png)
+ <use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 243.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [7
 
- <../images/KINL_TempJan.png>] <../images/KINL_Lows.png, id=88, 700.6175pt x 554.07pt>
-File: ../images/KINL_Lows.png Graphic file (type png)
- <use ../images/KINL_Lows.png>
-Package pdftex.def Info: ../images/KINL_Lows.png used on input line 146.
-(pdftex.def)             Requested size: 273.14651pt x 216.0188pt.
+ <../images/RuleCurveComparison.png>] <../images/ImputedChangeInFlows.png, id=102, 804.3651pt x 409.0482pt>
+File: ../images/ImputedChangeInFlows.png Graphic file (type png)
+ <use ../images/ImputedChangeInFlows.png>
+Package pdftex.def Info: ../images/ImputedChangeInFlows.png used on input line 253.
+(pdftex.def)             Requested size: 291.35739pt x 148.1685pt.
+File: images/background.png Graphic file (type png)
+ <use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 253.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [8
 
-Overfull \vbox (17.60501pt too high) detected at line 146
+ <../images/ImputedChangeInFlows.png>] <../images/RuleCurvePerformance1970-1999.png, id=110, 607.068pt x 437.9562pt>
+File: ../images/RuleCurvePerformance1970-1999.png Graphic file (type png)
+ <use ../images/RuleCurvePerformance1970-1999.png>
+Package pdftex.def Info: ../images/RuleCurvePerformance1970-1999.png used on input line 262.
+(pdftex.def)             Requested size: 291.35739pt x 210.18985pt.
+
+Overfull \vbox (7.9638pt too high) detected at line 262
  []
 
-[8
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 262.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [9
 
- <../images/KINL_Lows.png>] <../images/KINL_Highs.png, id=96, 700.6175pt x 554.07pt>
-File: ../images/KINL_Highs.png Graphic file (type png)
- <use ../images/KINL_Highs.png>
-Package pdftex.def Info: ../images/KINL_Highs.png used on input line 155.
-(pdftex.def)             Requested size: 273.14651pt x 216.0188pt.
+ <../images/RuleCurvePerformance1970-1999.png>] <../images/RuleCurvePerformance2000-2010.png, id=118, 607.068pt x 437.9562pt>
+File: ../images/RuleCurvePerformance2000-2010.png Graphic file (type png)
+ <use ../images/RuleCurvePerformance2000-2010.png>
+Package pdftex.def Info: ../images/RuleCurvePerformance2000-2010.png used on input line 271.
+(pdftex.def)             Requested size: 291.35739pt x 210.18985pt.
 
-Overfull \vbox (17.60501pt too high) detected at line 155
+Overfull \vbox (7.9638pt too high) detected at line 271
  []
 
-[9
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 271.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [10
 
- <../images/KINL_Highs.png>] <../images/IceOut_RL.png, id=104, 558.085pt x 374.39874pt>
-File: ../images/IceOut_RL.png Graphic file (type png)
- <use ../images/IceOut_RL.png>
-Package pdftex.def Info: ../images/IceOut_RL.png used on input line 166.
-(pdftex.def)             Requested size: 273.14651pt x 183.2456pt.
+ <../images/RuleCurvePerformance2000-2010.png>] <../images/RLFreqStage.png, id=126, 695.9601pt x 554.3109pt>
+File: ../images/RLFreqStage.png Graphic file (type png)
+ <use ../images/RLFreqStage.png>
+Package pdftex.def Info: ../images/RLFreqStage.png used on input line 281.
+(pdftex.def)             Requested size: 273.14651pt x 217.55904pt.
 
-Overfull \vbox (19.68895pt too high) detected at line 166
+Overfull \vbox (15.333pt too high) detected at line 281
  []
 
-[10
-
- <../images/IceOut_RL.png>] <../images/IceOut_KL.png, id=112, 558.085pt x 374.39874pt>
-File: ../images/IceOut_KL.png Graphic file (type png)
- <use ../images/IceOut_KL.png>
-Package pdftex.def Info: ../images/IceOut_KL.png used on input line 175.
-(pdftex.def)             Requested size: 273.14651pt x 183.2456pt.
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 281.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [11
 
- <../images/IceOut_KL.png>] <../images/IceOut_LOW.png, id=120, 558.085pt x 374.39874pt>
-File: ../images/IceOut_LOW.png Graphic file (type png)
- <use ../images/IceOut_LOW.png>
-Package pdftex.def Info: ../images/IceOut_LOW.png used on input line 184.
-(pdftex.def)             Requested size: 273.14651pt x 183.2456pt.
+ <../images/RLFreqStage.png>] <../images/RLFlowFreq.png, id=134, 697.4055pt x 554.3109pt>
+File: ../images/RLFlowFreq.png Graphic file (type png)
+ <use ../images/RLFlowFreq.png>
+Package pdftex.def Info: ../images/RLFlowFreq.png used on input line 290.
+(pdftex.def)             Requested size: 273.14651pt x 217.11076pt.
+
+Overfull \vbox (14.88472pt too high) detected at line 290
+ []
+
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 290.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [12
 
- <../images/IceOut_LOW.png>]
-File: images/WaterBarrelsDock.png Graphic file (type png)
- <use images/WaterBarrelsDock.png>
-Package pdftex.def Info: images/WaterBarrelsDock.png used on input line 192.
-(pdftex.def)             Requested size: 486.78212pt x 273.14662pt.
+ <../images/RLFlowFreq.png>] <../images/RainyRiverDischarge_Fit.png, id=142, 619.3539pt x 510.2262pt>
+File: ../images/RainyRiverDischarge_Fit.png Graphic file (type png)
+ <use ../images/RainyRiverDischarge_Fit.png>
+Package pdftex.def Info: ../images/RainyRiverDischarge_Fit.png used on input line 299.
+(pdftex.def)             Requested size: 273.14651pt x 225.02184pt.
+
+Overfull \vbox (22.79579pt too high) detected at line 299
+ []
+
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 299.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [13
 
-] <../images/IceOutPredictor.png, id=133, 558.085pt x 374.39874pt>
-File: ../images/IceOutPredictor.png Graphic file (type png)
- <use ../images/IceOutPredictor.png>
-Package pdftex.def Info: ../images/IceOutPredictor.png used on input line 202.
-(pdftex.def)             Requested size: 273.14651pt x 183.2456pt.
+ <../images/RainyRiverDischarge_Fit.png>] <images/fort-frances-dam.jpg, id=151, 622.325pt x 350.30875pt>
+File: images/fort-frances-dam.jpg Graphic file (type jpg)
+ <use images/fort-frances-dam.jpg>
+Package pdftex.def Info: images/fort-frances-dam.jpg used on input line 307.
+(pdftex.def)             Requested size: 485.2786pt x 273.14662pt.
  [14
 
- <../images/IceOutPredictor.png>] <images/FloodedSunset.jpg, id=141, 3011.25pt x 3011.25pt>
-File: images/FloodedSunset.jpg Graphic file (type jpg)
- <use images/FloodedSunset.jpg>
-Package pdftex.def Info: images/FloodedSunset.jpg used on input line 210.
-(pdftex.def)             Requested size: 364.19536pt x 364.18318pt.
+ <./images/fort-frances-dam.jpg>]
+File: images/background.png Graphic file (type png)
+ <use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 400.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [15
 
+] <images/800px-MPC_scheme_basic.png, id=161, 803.0pt x 445.665pt>
+File: images/800px-MPC_scheme_basic.png Graphic file (type png)
+ <use images/800px-MPC_scheme_basic.png>
+Package pdftex.def Info: images/800px-MPC_scheme_basic.png used on input line 410.
+(pdftex.def)             Requested size: 309.56827pt x 171.81616pt.
+
+Overfull \hbox (2.2784pt too wide) in paragraph at lines 410--410
+ [][] 
+ []
+
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 410.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [16
+
+ <./images/800px-MPC_scheme_basic.png>] <../images/RLSim_Model.png, id=169, 1295.84125pt x 602.25pt>
+File: ../images/RLSim_Model.png Graphic file (type png)
+ <use ../images/RLSim_Model.png>
+Package pdftex.def Info: ../images/RLSim_Model.png used on input line 419.
+(pdftex.def)             Requested size: 309.56827pt x 143.8721pt.
+
+Overfull \hbox (2.2784pt too wide) in paragraph at lines 419--419
+ [] 
+ []
+
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 419.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [17
+
+ <../images/RLSim_Model.png>] <images/KettleChannel.jpg, id=178, 3011.25pt x 2258.4375pt>
+File: images/KettleChannel.jpg Graphic file (type jpg)
+ <use images/KettleChannel.jpg>
+Package pdftex.def Info: images/KettleChannel.jpg used on input line 427.
+(pdftex.def)             Requested size: 364.18318pt x 273.14662pt.
+ [18
+
+ <./images/KettleChannel.jpg>] <../images/RLSim_Results.png, id=183, 578.16pt x 433.62pt>
+File: ../images/RLSim_Results.png Graphic file (type png)
+ <use ../images/RLSim_Results.png>
+Package pdftex.def Info: ../images/RLSim_Results.png used on input line 438.
+(pdftex.def)             Requested size: 291.35739pt x 218.51653pt.
+
+Overfull \vbox (4.29048pt too high) detected at line 438
+ []
+
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 438.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [19
+
+ <../images/RLSim_Results.png (PNG copy)>] <../images/RuleCurvePerformance1970-1999_sim.png, id=191, 618.6312pt x 453.1329pt>
+File: ../images/RuleCurvePerformance1970-1999_sim.png Graphic file (type png)
+ <use ../images/RuleCurvePerformance1970-1999_sim.png>
+Package pdftex.def Info: ../images/RuleCurvePerformance1970-1999_sim.png used on input line 447.
+(pdftex.def)             Requested size: 273.14651pt x 200.07051pt.
+File: images/background.png Graphic file (type png)
+ <use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 447.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [20
+
+ <../images/RuleCurvePerformance1970-1999_sim.png>] <../images/RuleCurvePerformance2000-2014_sim.png, id=199, 618.6312pt x 453.1329pt>
+File: ../images/RuleCurvePerformance2000-2014_sim.png Graphic file (type png)
+ <use ../images/RuleCurvePerformance2000-2014_sim.png>
+Package pdftex.def Info: ../images/RuleCurvePerformance2000-2014_sim.png used on input line 457.
+(pdftex.def)             Requested size: 273.14651pt x 200.07051pt.
+File: images/background.png Graphic file (type png)
+ <use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 457.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [21
+
+ <../images/RuleCurvePerformance2000-2014_sim.png>] <../images/RLFreqStage_sim.png, id=207, 695.9601pt x 554.3109pt>
+File: ../images/RLFreqStage_sim.png Graphic file (type png)
+ <use ../images/RLFreqStage_sim.png>
+Package pdftex.def Info: ../images/RLFreqStage_sim.png used on input line 467.
+(pdftex.def)             Requested size: 273.14651pt x 217.55904pt.
+
+Overfull \vbox (3.333pt too high) detected at line 467
+ []
+
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 467.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [22
+
+ <../images/RLFreqStage_sim.png>] <../images/RLFlowFreq_sim.png, id=215, 697.4055pt x 554.3109pt>
+File: ../images/RLFlowFreq_sim.png Graphic file (type png)
+ <use ../images/RLFlowFreq_sim.png>
+Package pdftex.def Info: ../images/RLFlowFreq_sim.png used on input line 477.
+(pdftex.def)             Requested size: 273.14651pt x 217.11076pt.
+
+Overfull \vbox (2.88472pt too high) detected at line 477
+ []
+
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 477.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [23
+
+ <../images/RLFlowFreq_sim.png>]
+Overfull \vbox (6.60033pt too high) detected at line 508
+ []
+
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 508.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [24
+
+]
+Overfull \vbox (6.60033pt too high) detected at line 539
+ []
+
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 539.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [25
+
+] <../images/RainyRiverDischarge_sim.png, id=236, 632.3625pt x 513.8397pt>
+File: ../images/RainyRiverDischarge_sim.png Graphic file (type png)
+ <use ../images/RainyRiverDischarge_sim.png>
+Package pdftex.def Info: ../images/RainyRiverDischarge_sim.png used on input line 549.
+(pdftex.def)             Requested size: 273.14651pt x 221.95035pt.
+
+Overfull \vbox (7.7243pt too high) detected at line 549
+ []
+
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 549.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [26
+
+ <../images/RainyRiverDischarge_sim.png>] <images/myersFLOOD0618c10_0.jpg, id=244, 1003.75pt x 643.40375pt>
+File: images/myersFLOOD0618c10_0.jpg Graphic file (type jpg)
+ <use images/myersFLOOD0618c10_0.jpg>
+Package pdftex.def Info: images/myersFLOOD0618c10_0.jpg used on input line 557.
+(pdftex.def)             Requested size: 426.13629pt x 273.14662pt.
+ [27
+
+ <./images/myersFLOOD0618c10_0.jpg>]
+File: images/background.png Graphic file (type png)
+ <use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 575.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [28
+
+] <images/FloodedSunset.jpg, id=255, 3011.25pt x 3011.25pt>
+File: images/FloodedSunset.jpg Graphic file (type jpg)
+ <use images/FloodedSunset.jpg>
+Package pdftex.def Info: images/FloodedSunset.jpg used on input line 584.
+(pdftex.def)             Requested size: 364.19536pt x 364.18318pt.
+ [29
+
  <./images/FloodedSunset.jpg>]
+File: images/background.png Graphic file (type png)
+ <use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 622.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [30
+
+]
 \tf@nav=\write6
 \openout6 = `Watershed_Forum_2016_Slides.nav'.
 
@@ -1742,28 +1676,33 @@ Package pdftex.def Info: images/FloodedSunset.jpg used on input line 210.
 \tf@snm=\write8
 \openout8 = `Watershed_Forum_2016_Slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 624.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 624.
  (/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 624.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 624.
 Package rerunfilecheck Info: File `Watershed_Forum_2016_Slides.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 624.
  ) 
 Here is how much of TeX's memory you used:
- 33678 strings out of 493117
- 754940 string characters out of 6135433
- 921662 words of memory out of 5000000
- 36327 multiletter control sequences out of 15000+600000
- 28778 words of font info for 25 fonts, out of 8000000 for 9000
+ 32676 strings out of 493117
+ 744210 string characters out of 6135433
+ 930890 words of memory out of 5000000
+ 35291 multiletter control sequences out of 15000+600000
+ 26210 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,12n,78p,1030b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on "/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.pdf" (15 pages, 6224838 bytes).
+ 58i,12n,78p,1030b,686s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/wasy/wasy10.pfb>
+Output written on "/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.pdf" (30 pages, 9580672 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 334 PDF objects out of 1000 (max. 8388607)
+ 241 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
