@@ -1,7 +1,5 @@
 \beamer@endinputifotherversion {3.33pt}
 \select@language {english}
-\beamer@sectionintoc {2}{Motivations}{3}{0}{1}
-\beamer@sectionintoc {3}{Implementing Rule Curves with Model Predictive Control}{18}{0}{2}
-\beamer@sectionintoc {4}{Assessment of Simulation Results}{22}{0}{3}
-\beamer@sectionintoc {5}{Implications for the Rule Curve Review}{31}{0}{4}
-\beamer@sectionintoc {6}{Discussion}{33}{0}{5}
+\beamer@sectionintoc {2}{Why is Control so Difficult?}{3}{0}{1}
+\beamer@sectionintoc {3}{Implementing Rule Curves with Model Predictive Control}{15}{0}{2}
+\beamer@sectionintoc {4}{Assessment and Implications for Rule Curve Review}{19}{0}{3}

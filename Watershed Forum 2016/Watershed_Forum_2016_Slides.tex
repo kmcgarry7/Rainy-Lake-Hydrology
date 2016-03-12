@@ -60,12 +60,12 @@
 % Presentation Information
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
 
-\title{Feedback Control for Level and Flow Management}
+\title{}
 \author{Jeffrey Kantor }
 \institute{University of Notre Dame \\ Github: \href{http://jckantor.github.io/Rainy-Lake-Hydrology/}{http://jckantor.github.io/Rainy-Lake-Hydrology/}}
 \subtitle{Multivariable Control of Lake Levels and Stream Flows in the Namakan Reservoir/Rainy Lake Watershed}
 \date{2016 International Rainy-Lake of the Woods Watershed Forum \\ 
-      March, 2016}
+      March 10, 2016}
 
 \begin{document}
 
@@ -104,8 +104,8 @@
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
 
 {\usebackgroundtemplate%
-	{\includegraphics[height=\paperheight]{20150804_195914.jpg}}
-\section{Motivations}
+	{\includegraphics[height=\paperheight]{20150804_194209.jpg}}
+\section{Why is Control so Difficult?}
 }
 
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
@@ -116,7 +116,6 @@
 \end{center}
 
 \end{frame}
-
 
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6%%%%%%%%%7%%%%%%%%%8
 \begin{frame}{1993 Final Report and Recommendations}
@@ -234,55 +233,41 @@
 \end{frame}
 
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
+\begin{frame}{Upper Rainy River Discharge Characteristics}
+
+\begin{center}
+\includegraphicscopyright[width=0.75\paperwidth]{RainyRiverDischarge_Fit.png}{Source: \href{http://jckantor.github.io/Rainy-Lake-Hydrology/}{Github Repository for this paper.}}
+\end{center}
+
+\end{frame} 
+
+%%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
 \begin{frame}{Rule Curve Changes in 2000}
 
 \begin{center}
-\includegraphicscopyright[width=0.8\paperwidth]{RuleCurveComparison.png}{Source: \href{http://jckantor.github.io/Rainy-Lake-Hydrology/}{Github Repository for this paper.}}
+\includegraphicscopyright[height=0.8\paperheight]{RuleCurveComparisonFlows.png}{Source: \href{http://jckantor.github.io/Rainy-Lake-Hydrology/}{Github Repository for this paper.}}
 \end{center}
 
 \end{frame}
 
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
-\begin{frame}{Imputed Change in Flows to Rainy River}
-
-The change in rule curves implies a change in flows to Rainy River. Assuming midpoints of the rule curves ...
-\begin{center}
-\includegraphicscopyright[width=0.8\paperwidth]{ImputedChangeInFlows.png}{Source: \href{http://jckantor.github.io/Rainy-Lake-Hydrology/}{Github Repository for this paper.}}
-\end{center}
-
-\end{frame}
-
-%%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
-\begin{frame}{Maximum Controllable Inflows 1970--1999}
+\begin{frame}{Maximum Controllable Inflows}
 
 \begin{center}
-\includegraphicscopyright[width=0.8\paperwidth]{RLMaxFlow1970.png}{Source: \href{http://jckantor.github.io/Rainy-Lake-Hydrology/}{Github Repository for this paper.}}
-\end{center}
+\includegraphics[width=0.8\paperwidth]{RLMaxFlow1970.png}
 
-\end{frame}
-
-%%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
-\begin{frame}{Maximum Controllable Inflows 2000-2014}
-
-\begin{center}
 \includegraphicscopyright[width=0.8\paperwidth]{RLMaxFlow2000.png}{Source: \href{http://jckantor.github.io/Rainy-Lake-Hydrology/}{Github Repository for this paper.}}
+
 \end{center}
 
 \end{frame}
 
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
-\begin{frame}{Uncontrollable Inflow Freq, 1970-1999}
+\begin{frame}{Uncontrollable Inflow Frequency}
 
 \begin{center}
-\includegraphicscopyright[width=0.8\paperwidth]{RLMaxFlowFreq1970.png}{Source: \href{http://jckantor.github.io/Rainy-Lake-Hydrology/}{Github Repository for this paper.}}
-\end{center}
+\includegraphics[width=0.8\paperwidth]{RLMaxFlowFreq1970.png}
 
-\end{frame}
-
-%%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
-\begin{frame}{Uncontrollable Inflow Freq, 2000-2014}
-
-\begin{center}
 \includegraphicscopyright[width=0.8\paperwidth]{RLMaxFlowFreq2000.png}{Source: \href{http://jckantor.github.io/Rainy-Lake-Hydrology/}{Github Repository for this paper.}}
 \end{center}
 
@@ -306,7 +291,6 @@ The change in rule curves implies a change in flows to Rainy River. Assuming mid
 
 \end{frame}
 
-
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
 \begin{frame}{Rule Curve Performance - Rainy Lake Levels}
 
@@ -325,14 +309,6 @@ The change in rule curves implies a change in flows to Rainy River. Assuming mid
 
 \end{frame}
 
-%%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
-\begin{frame}{Upper Rainy River Discharge Characteristics}
-
-\begin{center}
-\includegraphicscopyright[width=0.75\paperwidth]{RainyRiverDischarge_Fit.png}{Source: \href{http://jckantor.github.io/Rainy-Lake-Hydrology/}{Github Repository for this paper.}}
-\end{center}
-
-\end{frame} 
 
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
 % Section 
@@ -460,7 +436,7 @@ The change in rule curves implies a change in flows to Rainy River. Assuming mid
 
 {\usebackgroundtemplate%
 	{\includegraphics[height=\paperheight]{KettleChannel.jpg}}
-\section{Assessment of Simulation Results}
+\section{Assessment and Implications for Rule Curve Review}
 }
 
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
@@ -583,15 +559,7 @@ The change in rule curves implies a change in flows to Rainy River. Assuming mid
 \vfill
 
 \end{frame}
- 
-%%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
-% Section 
-%%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6
 
-{\usebackgroundtemplate%
-	{\includegraphics[height=\paperheight]{myersFLOOD0618c10_0.jpg}}
-\section{Implications for the Rule Curve Review}
-}
 
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6%%%%%%%%%7%%%%%%%%%8
 \begin{frame}{Conclusions}
@@ -600,7 +568,7 @@ The change in rule curves implies a change in flows to Rainy River. Assuming mid
 
 \begin{enumerate}
 
-\item Contrary to the 1993 Report, there is little evidence for "diligent use of existing network of upstream lake level gauges and currently available hydrological models can make this IJC mandate a reality and improve the accuracy and reliability of reservoir level control."
+\item There is little evidence for "diligent use of existing network of upstream lake level gauges and currently available hydrological models can make this IJC mandate a reality and improve the accuracy and reliability of reservoir level control."
 
 \item The 2000 rule curves are not a feasible mandate for level management on Rainy Lake. Namakan and Rainy Lake rule curves require 'harmonization'.
 
@@ -617,7 +585,7 @@ The change in rule curves implies a change in flows to Rainy River. Assuming mid
 
 {\usebackgroundtemplate%
 	{\includegraphics[width=\paperwidth]{FloodedSunset}}
-\section{Discussion}
+\section*{Discussion}
 }
 
 %%%%%%%%%1%%%%%%%%%2%%%%%%%%%3%%%%%%%%%4%%%%%%%%%5%%%%%%%%%6

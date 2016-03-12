@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 MAR 2016 18:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  10 MAR 2016 12:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1311,14 +1311,14 @@ LaTeX Info: Redefining \selectfont on input line 70.
 LaTeX Font Warning: Font shape `T1/cmss/bx/n' in size <20> not available
 (Font)              size <20.74> substituted on input line 89.
 
-<images/20150804_202405.jpg, id=34, 1606.0pt x 1204.5pt>
+<images/20150804_202405.jpg, id=26, 1606.0pt x 1204.5pt>
 File: images/20150804_202405.jpg Graphic file (type jpg)
  <use images/20150804_202405.jpg>
 Package pdftex.def Info: images/20150804_202405.jpg used on input line 89.
 (pdftex.def)             Requested size: 364.20157pt x 273.14662pt.
  [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/20150804_202405.jpg>] (/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.toc) <images/background.png, id=53, 897.3525pt x 566.115pt>
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/20150804_202405.jpg>] (/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.toc) <images/background.png, id=42, 897.3525pt x 566.115pt>
 File: images/background.png Graphic file (type png)
  <use images/background.png>
 Package pdftex.def Info: images/background.png used on input line 100.
@@ -1330,14 +1330,14 @@ LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4> not available
 
 [2
 
- <./images/background.png>] <images/20150804_195914.jpg, id=69, 1606.0pt x 1081.03876pt>
-File: images/20150804_195914.jpg Graphic file (type jpg)
- <use images/20150804_195914.jpg>
-Package pdftex.def Info: images/20150804_195914.jpg used on input line 108.
-(pdftex.def)             Requested size: 405.78749pt x 273.14662pt.
+ <./images/background.png>] <images/20150804_194209.jpg, id=56, 1606.0pt x 1204.5pt>
+File: images/20150804_194209.jpg Graphic file (type jpg)
+ <use images/20150804_194209.jpg>
+Package pdftex.def Info: images/20150804_194209.jpg used on input line 108.
+(pdftex.def)             Requested size: 364.20157pt x 273.14662pt.
  [3
 
- <./images/20150804_195914.jpg>] <images/75242923.png, id=75, 734.2632pt x 535.2798pt>
+ <./images/20150804_194209.jpg>] <images/75242923.png, id=62, 734.2632pt x 535.2798pt>
 File: images/75242923.png Graphic file (type png)
  <use images/75242923.png>
 Package pdftex.def Info: images/75242923.png used on input line 118.
@@ -1355,360 +1355,335 @@ Package pdftex.def Info: images/background.png used on input line 118.
  <./images/75242923.png>]
 File: images/background.png Graphic file (type png)
  <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 135.
+Package pdftex.def Info: images/background.png used on input line 134.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [5
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 234.
+LaTeX Font Info:    Try loading font information for U+msa on input line 233.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 234.
+LaTeX Font Info:    Try loading font information for U+msb on input line 233.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 234.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 233.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 234.
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 233.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
-Overfull \hbox (1.86763pt too wide) in paragraph at lines 234--234
+Overfull \hbox (1.86763pt too wide) in paragraph at lines 233--233
  [][] 
  []
 
 File: images/background.png Graphic file (type png)
 <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 234.
+Package pdftex.def Info: images/background.png used on input line 233.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [6
 
-] <../images/RuleCurveComparison.png, id=93, 699.5736pt x 409.0482pt>
-File: ../images/RuleCurveComparison.png Graphic file (type png)
- <use ../images/RuleCurveComparison.png>
-Package pdftex.def Info: ../images/RuleCurveComparison.png used on input line 243.
-(pdftex.def)             Requested size: 291.35739pt x 170.35727pt.
+] <../images/RainyRiverDischarge_Fit.png, id=80, 619.3539pt x 510.2262pt>
+File: ../images/RainyRiverDischarge_Fit.png Graphic file (type png)
+ <use ../images/RainyRiverDischarge_Fit.png>
+Package pdftex.def Info: ../images/RainyRiverDischarge_Fit.png used on input line 242.
+(pdftex.def)             Requested size: 273.14651pt x 225.02184pt.
+
+Overfull \vbox (22.79579pt too high) detected at line 242
+ []
+
 File: images/background.png Graphic file (type png)
- <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 243.
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 242.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [7
 
- <../images/RuleCurveComparison.png>] <../images/ImputedChangeInFlows.png, id=102, 804.3651pt x 409.0482pt>
-File: ../images/ImputedChangeInFlows.png Graphic file (type png)
- <use ../images/ImputedChangeInFlows.png>
-Package pdftex.def Info: ../images/ImputedChangeInFlows.png used on input line 253.
-(pdftex.def)             Requested size: 291.35739pt x 148.1685pt.
+ <../images/RainyRiverDischarge_Fit.png>] <../images/RuleCurveComparisonFlows.png, id=89, 699.5736pt x 553.5882pt>
+File: ../images/RuleCurveComparisonFlows.png Graphic file (type png)
+ <use ../images/RuleCurveComparisonFlows.png>
+Package pdftex.def Info: ../images/RuleCurveComparisonFlows.png used on input line 251.
+(pdftex.def)             Requested size: 276.14174pt x 218.51813pt.
+
+Overfull \vbox (16.29208pt too high) detected at line 251
+ []
+
 File: images/background.png Graphic file (type png)
- <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 253.
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 251.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [8
 
- <../images/ImputedChangeInFlows.png>] <../images/RLMaxFlow1970.png, id=110, 722.7pt x 433.62pt>
+ <../images/RuleCurveComparisonFlows.png>] <../images/RLMaxFlow1970.png, id=97, 722.7pt x 252.945pt>
 File: ../images/RLMaxFlow1970.png Graphic file (type png)
  <use ../images/RLMaxFlow1970.png>
-Package pdftex.def Info: ../images/RLMaxFlow1970.png used on input line 262.
-(pdftex.def)             Requested size: 291.35739pt x 174.81454pt.
+Package pdftex.def Info: ../images/RLMaxFlow1970.png used on input line 263.
+(pdftex.def)             Requested size: 291.35739pt x 101.97514pt.
+ <../images/RLMaxFlow2000.png, id=98, 722.7pt x 252.945pt>
+File: ../images/RLMaxFlow2000.png Graphic file (type png)
+ <use ../images/RLMaxFlow2000.png>
+Package pdftex.def Info: ../images/RLMaxFlow2000.png used on input line 263.
+(pdftex.def)             Requested size: 291.35739pt x 101.97514pt.
+
+Overfull \vbox (8.19925pt too high) detected at line 263
+ []
+
 File: images/background.png Graphic file (type png)
- <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 262.
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 263.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [9
 
- <../images/RLMaxFlow1970.png>] <../images/RLMaxFlow2000.png, id=118, 722.7pt x 433.62pt>
-File: ../images/RLMaxFlow2000.png Graphic file (type png)
- <use ../images/RLMaxFlow2000.png>
-Package pdftex.def Info: ../images/RLMaxFlow2000.png used on input line 271.
-(pdftex.def)             Requested size: 291.35739pt x 174.81454pt.
+ <../images/RLMaxFlow1970.png> <../images/RLMaxFlow2000.png>] <../images/RLMaxFlowFreq1970.png, id=107, 722.7pt x 252.945pt>
+File: ../images/RLMaxFlowFreq1970.png Graphic file (type png)
+ <use ../images/RLMaxFlowFreq1970.png>
+Package pdftex.def Info: ../images/RLMaxFlowFreq1970.png used on input line 274.
+(pdftex.def)             Requested size: 291.35739pt x 101.97514pt.
+ <../images/RLMaxFlowFreq2000.png, id=108, 722.7pt x 252.945pt>
+File: ../images/RLMaxFlowFreq2000.png Graphic file (type png)
+ <use ../images/RLMaxFlowFreq2000.png>
+Package pdftex.def Info: ../images/RLMaxFlowFreq2000.png used on input line 274.
+(pdftex.def)             Requested size: 291.35739pt x 101.97514pt.
+
+Overfull \vbox (8.19925pt too high) detected at line 274
+ []
+
 File: images/background.png Graphic file (type png)
- <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 271.
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 274.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [10
 
- <../images/RLMaxFlow2000.png>] <../images/RLMaxFlowFreq1970.png, id=126, 722.7pt x 433.62pt>
-File: ../images/RLMaxFlowFreq1970.png Graphic file (type png)
- <use ../images/RLMaxFlowFreq1970.png>
-Package pdftex.def Info: ../images/RLMaxFlowFreq1970.png used on input line 280.
-(pdftex.def)             Requested size: 291.35739pt x 174.81454pt.
+ <../images/RLMaxFlowFreq1970.png> <../images/RLMaxFlowFreq2000.png>] <../images/RuleCurvePerformance1970-1999.png, id=117, 607.068pt x 437.9562pt>
+File: ../images/RuleCurvePerformance1970-1999.png Graphic file (type png)
+ <use ../images/RuleCurvePerformance1970-1999.png>
+Package pdftex.def Info: ../images/RuleCurvePerformance1970-1999.png used on input line 283.
+(pdftex.def)             Requested size: 291.35739pt x 210.18985pt.
+
+Overfull \vbox (7.9638pt too high) detected at line 283
+ []
+
 File: images/background.png Graphic file (type png)
- <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 280.
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 283.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [11
 
- <../images/RLMaxFlowFreq1970.png>] <../images/RLMaxFlowFreq2000.png, id=134, 722.7pt x 433.62pt>
-File: ../images/RLMaxFlowFreq2000.png Graphic file (type png)
- <use ../images/RLMaxFlowFreq2000.png>
-Package pdftex.def Info: ../images/RLMaxFlowFreq2000.png used on input line 289.
-(pdftex.def)             Requested size: 291.35739pt x 174.81454pt.
+ <../images/RuleCurvePerformance1970-1999.png>] <../images/RuleCurvePerformance2000-2010.png, id=125, 607.068pt x 437.9562pt>
+File: ../images/RuleCurvePerformance2000-2010.png Graphic file (type png)
+ <use ../images/RuleCurvePerformance2000-2010.png>
+Package pdftex.def Info: ../images/RuleCurvePerformance2000-2010.png used on input line 292.
+(pdftex.def)             Requested size: 291.35739pt x 210.18985pt.
+
+Overfull \vbox (7.9638pt too high) detected at line 292
+ []
+
 File: images/background.png Graphic file (type png)
- <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 289.
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 292.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [12
 
- <../images/RLMaxFlowFreq2000.png>] <../images/RuleCurvePerformance1970-1999.png, id=142, 607.068pt x 437.9562pt>
-File: ../images/RuleCurvePerformance1970-1999.png Graphic file (type png)
- <use ../images/RuleCurvePerformance1970-1999.png>
-Package pdftex.def Info: ../images/RuleCurvePerformance1970-1999.png used on input line 298.
-(pdftex.def)             Requested size: 291.35739pt x 210.18985pt.
+ <../images/RuleCurvePerformance2000-2010.png>] <../images/RLFreqStage.png, id=133, 695.9601pt x 554.3109pt>
+File: ../images/RLFreqStage.png Graphic file (type png)
+ <use ../images/RLFreqStage.png>
+Package pdftex.def Info: ../images/RLFreqStage.png used on input line 301.
+(pdftex.def)             Requested size: 273.14651pt x 217.55904pt.
 
-Overfull \vbox (7.9638pt too high) detected at line 298
+Overfull \vbox (15.333pt too high) detected at line 301
  []
 
 File: images/background.png Graphic file (type png)
 <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 298.
+Package pdftex.def Info: images/background.png used on input line 301.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [13
 
- <../images/RuleCurvePerformance1970-1999.png>] <../images/RuleCurvePerformance2000-2010.png, id=151, 607.068pt x 437.9562pt>
-File: ../images/RuleCurvePerformance2000-2010.png Graphic file (type png)
- <use ../images/RuleCurvePerformance2000-2010.png>
-Package pdftex.def Info: ../images/RuleCurvePerformance2000-2010.png used on input line 307.
-(pdftex.def)             Requested size: 291.35739pt x 210.18985pt.
+ <../images/RLFreqStage.png>] <../images/RLFlowFreq.png, id=142, 697.4055pt x 554.3109pt>
+File: ../images/RLFlowFreq.png Graphic file (type png)
+ <use ../images/RLFlowFreq.png>
+Package pdftex.def Info: ../images/RLFlowFreq.png used on input line 310.
+(pdftex.def)             Requested size: 273.14651pt x 217.11076pt.
 
-Overfull \vbox (7.9638pt too high) detected at line 307
+Overfull \vbox (14.88472pt too high) detected at line 310
  []
 
 File: images/background.png Graphic file (type png)
 <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 307.
+Package pdftex.def Info: images/background.png used on input line 310.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [14
 
- <../images/RuleCurvePerformance2000-2010.png>] <../images/RLFreqStage.png, id=159, 695.9601pt x 554.3109pt>
-File: ../images/RLFreqStage.png Graphic file (type png)
- <use ../images/RLFreqStage.png>
-Package pdftex.def Info: ../images/RLFreqStage.png used on input line 317.
-(pdftex.def)             Requested size: 273.14651pt x 217.55904pt.
-
-Overfull \vbox (15.333pt too high) detected at line 317
- []
-
-File: images/background.png Graphic file (type png)
-<use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 317.
-(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
- [15
-
- <../images/RLFreqStage.png>] <../images/RLFlowFreq.png, id=167, 697.4055pt x 554.3109pt>
-File: ../images/RLFlowFreq.png Graphic file (type png)
- <use ../images/RLFlowFreq.png>
-Package pdftex.def Info: ../images/RLFlowFreq.png used on input line 326.
-(pdftex.def)             Requested size: 273.14651pt x 217.11076pt.
-
-Overfull \vbox (14.88472pt too high) detected at line 326
- []
-
-File: images/background.png Graphic file (type png)
-<use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 326.
-(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
- [16
-
- <../images/RLFlowFreq.png>] <../images/RainyRiverDischarge_Fit.png, id=175, 619.3539pt x 510.2262pt>
-File: ../images/RainyRiverDischarge_Fit.png Graphic file (type png)
- <use ../images/RainyRiverDischarge_Fit.png>
-Package pdftex.def Info: ../images/RainyRiverDischarge_Fit.png used on input line 335.
-(pdftex.def)             Requested size: 273.14651pt x 225.02184pt.
-
-Overfull \vbox (22.79579pt too high) detected at line 335
- []
-
-File: images/background.png Graphic file (type png)
-<use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 335.
-(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
- [17
-
- <../images/RainyRiverDischarge_Fit.png>] <images/fort-frances-dam.jpg, id=184, 622.325pt x 350.30875pt>
+ <../images/RLFlowFreq.png>] <images/fort-frances-dam.jpg, id=150, 622.325pt x 350.30875pt>
 File: images/fort-frances-dam.jpg Graphic file (type jpg)
  <use images/fort-frances-dam.jpg>
-Package pdftex.def Info: images/fort-frances-dam.jpg used on input line 343.
+Package pdftex.def Info: images/fort-frances-dam.jpg used on input line 319.
 (pdftex.def)             Requested size: 485.2786pt x 273.14662pt.
- [18
+ [15
 
  <./images/fort-frances-dam.jpg>]
 File: images/background.png Graphic file (type png)
  <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 436.
+Package pdftex.def Info: images/background.png used on input line 412.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
- [19
+ [16
 
-] <images/800px-MPC_scheme_basic.png, id=195, 803.0pt x 445.665pt>
+] <images/800px-MPC_scheme_basic.png, id=160, 803.0pt x 445.665pt>
 File: images/800px-MPC_scheme_basic.png Graphic file (type png)
  <use images/800px-MPC_scheme_basic.png>
-Package pdftex.def Info: images/800px-MPC_scheme_basic.png used on input line 446.
+Package pdftex.def Info: images/800px-MPC_scheme_basic.png used on input line 422.
 (pdftex.def)             Requested size: 309.56827pt x 171.81616pt.
 
-Overfull \hbox (2.2784pt too wide) in paragraph at lines 446--446
+Overfull \hbox (2.2784pt too wide) in paragraph at lines 422--422
  [][] 
  []
 
 File: images/background.png Graphic file (type png)
 <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 446.
+Package pdftex.def Info: images/background.png used on input line 422.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
- [20
+ [17
 
- <./images/800px-MPC_scheme_basic.png>] <../images/RLSim_Model.png, id=203, 1295.84125pt x 602.25pt>
+ <./images/800px-MPC_scheme_basic.png>] <../images/RLSim_Model.png, id=168, 1295.84125pt x 602.25pt>
 File: ../images/RLSim_Model.png Graphic file (type png)
  <use ../images/RLSim_Model.png>
-Package pdftex.def Info: ../images/RLSim_Model.png used on input line 455.
+Package pdftex.def Info: ../images/RLSim_Model.png used on input line 431.
 (pdftex.def)             Requested size: 309.56827pt x 143.8721pt.
 
-Overfull \hbox (2.2784pt too wide) in paragraph at lines 455--455
+Overfull \hbox (2.2784pt too wide) in paragraph at lines 431--431
  [] 
  []
 
 File: images/background.png Graphic file (type png)
 <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 455.
+Package pdftex.def Info: images/background.png used on input line 431.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [18
+
+ <../images/RLSim_Model.png>] <images/KettleChannel.jpg, id=177, 3011.25pt x 2258.4375pt>
+File: images/KettleChannel.jpg Graphic file (type jpg)
+ <use images/KettleChannel.jpg>
+Package pdftex.def Info: images/KettleChannel.jpg used on input line 439.
+(pdftex.def)             Requested size: 364.18318pt x 273.14662pt.
+ [19
+
+ <./images/KettleChannel.jpg>] <../images/RLSim_Results.png, id=183, 578.16pt x 433.62pt>
+File: ../images/RLSim_Results.png Graphic file (type png)
+ <use ../images/RLSim_Results.png>
+Package pdftex.def Info: ../images/RLSim_Results.png used on input line 450.
+(pdftex.def)             Requested size: 291.35739pt x 218.51653pt.
+
+Overfull \vbox (4.29048pt too high) detected at line 450
+ []
+
+File: images/background.png Graphic file (type png)
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 450.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
+ [20
+
+ <../images/RLSim_Results.png (PNG copy)>] <../images/RuleCurvePerformance1970-1999_sim.png, id=190, 618.6312pt x 453.1329pt>
+File: ../images/RuleCurvePerformance1970-1999_sim.png Graphic file (type png)
+ <use ../images/RuleCurvePerformance1970-1999_sim.png>
+Package pdftex.def Info: ../images/RuleCurvePerformance1970-1999_sim.png used on input line 459.
+(pdftex.def)             Requested size: 273.14651pt x 200.07051pt.
+File: images/background.png Graphic file (type png)
+ <use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 459.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [21
 
- <../images/RLSim_Model.png>] <images/KettleChannel.jpg, id=211, 3011.25pt x 2258.4375pt>
-File: images/KettleChannel.jpg Graphic file (type jpg)
- <use images/KettleChannel.jpg>
-Package pdftex.def Info: images/KettleChannel.jpg used on input line 463.
-(pdftex.def)             Requested size: 364.18318pt x 273.14662pt.
+ <../images/RuleCurvePerformance1970-1999_sim.png>] <../images/RuleCurvePerformance2000-2014_sim.png, id=198, 618.6312pt x 453.1329pt>
+File: ../images/RuleCurvePerformance2000-2014_sim.png Graphic file (type png)
+ <use ../images/RuleCurvePerformance2000-2014_sim.png>
+Package pdftex.def Info: ../images/RuleCurvePerformance2000-2014_sim.png used on input line 469.
+(pdftex.def)             Requested size: 273.14651pt x 200.07051pt.
+File: images/background.png Graphic file (type png)
+ <use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 469.
+(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [22
 
- <./images/KettleChannel.jpg>] <../images/RLSim_Results.png, id=216, 578.16pt x 433.62pt>
-File: ../images/RLSim_Results.png Graphic file (type png)
- <use ../images/RLSim_Results.png>
-Package pdftex.def Info: ../images/RLSim_Results.png used on input line 474.
-(pdftex.def)             Requested size: 291.35739pt x 218.51653pt.
+ <../images/RuleCurvePerformance2000-2014_sim.png>] <../images/RLFreqStage_sim.png, id=206, 695.9601pt x 554.3109pt>
+File: ../images/RLFreqStage_sim.png Graphic file (type png)
+ <use ../images/RLFreqStage_sim.png>
+Package pdftex.def Info: ../images/RLFreqStage_sim.png used on input line 479.
+(pdftex.def)             Requested size: 273.14651pt x 217.55904pt.
 
-Overfull \vbox (4.29048pt too high) detected at line 474
+Overfull \vbox (3.333pt too high) detected at line 479
  []
 
 File: images/background.png Graphic file (type png)
 <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 474.
+Package pdftex.def Info: images/background.png used on input line 479.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [23
 
- <../images/RLSim_Results.png (PNG copy)>] <../images/RuleCurvePerformance1970-1999_sim.png, id=223, 618.6312pt x 453.1329pt>
-File: ../images/RuleCurvePerformance1970-1999_sim.png Graphic file (type png)
- <use ../images/RuleCurvePerformance1970-1999_sim.png>
-Package pdftex.def Info: ../images/RuleCurvePerformance1970-1999_sim.png used on input line 483.
-(pdftex.def)             Requested size: 273.14651pt x 200.07051pt.
+ <../images/RLFreqStage_sim.png>] <../images/RLFlowFreq_sim.png, id=214, 697.4055pt x 554.3109pt>
+File: ../images/RLFlowFreq_sim.png Graphic file (type png)
+ <use ../images/RLFlowFreq_sim.png>
+Package pdftex.def Info: ../images/RLFlowFreq_sim.png used on input line 489.
+(pdftex.def)             Requested size: 273.14651pt x 217.11076pt.
+
+Overfull \vbox (2.88472pt too high) detected at line 489
+ []
+
 File: images/background.png Graphic file (type png)
- <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 483.
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 489.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [24
 
- <../images/RuleCurvePerformance1970-1999_sim.png>] <../images/RuleCurvePerformance2000-2014_sim.png, id=231, 618.6312pt x 453.1329pt>
-File: ../images/RuleCurvePerformance2000-2014_sim.png Graphic file (type png)
- <use ../images/RuleCurvePerformance2000-2014_sim.png>
-Package pdftex.def Info: ../images/RuleCurvePerformance2000-2014_sim.png used on input line 493.
-(pdftex.def)             Requested size: 273.14651pt x 200.07051pt.
+ <../images/RLFlowFreq_sim.png>]
+Overfull \vbox (6.60033pt too high) detected at line 520
+ []
+
 File: images/background.png Graphic file (type png)
- <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 493.
+<use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 520.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [25
 
- <../images/RuleCurvePerformance2000-2014_sim.png>] <../images/RLFreqStage_sim.png, id=240, 695.9601pt x 554.3109pt>
-File: ../images/RLFreqStage_sim.png Graphic file (type png)
- <use ../images/RLFreqStage_sim.png>
-Package pdftex.def Info: ../images/RLFreqStage_sim.png used on input line 503.
-(pdftex.def)             Requested size: 273.14651pt x 217.55904pt.
-
-Overfull \vbox (3.333pt too high) detected at line 503
+]
+Overfull \vbox (6.60033pt too high) detected at line 551
  []
 
 File: images/background.png Graphic file (type png)
 <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 503.
+Package pdftex.def Info: images/background.png used on input line 551.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [26
 
- <../images/RLFreqStage_sim.png>] <../images/RLFlowFreq_sim.png, id=248, 697.4055pt x 554.3109pt>
-File: ../images/RLFlowFreq_sim.png Graphic file (type png)
- <use ../images/RLFlowFreq_sim.png>
-Package pdftex.def Info: ../images/RLFlowFreq_sim.png used on input line 513.
-(pdftex.def)             Requested size: 273.14651pt x 217.11076pt.
+] <../images/RainyRiverDischarge_sim.png, id=235, 632.3625pt x 513.8397pt>
+File: ../images/RainyRiverDischarge_sim.png Graphic file (type png)
+ <use ../images/RainyRiverDischarge_sim.png>
+Package pdftex.def Info: ../images/RainyRiverDischarge_sim.png used on input line 561.
+(pdftex.def)             Requested size: 273.14651pt x 221.95035pt.
 
-Overfull \vbox (2.88472pt too high) detected at line 513
+Overfull \vbox (7.7243pt too high) detected at line 561
  []
 
 File: images/background.png Graphic file (type png)
 <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 513.
+Package pdftex.def Info: images/background.png used on input line 561.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [27
 
- <../images/RLFlowFreq_sim.png>]
-Overfull \vbox (6.60033pt too high) detected at line 544
- []
-
+ <../images/RainyRiverDischarge_sim.png>]
 File: images/background.png Graphic file (type png)
-<use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 544.
+ <use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 579.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [28
 
 ]
-Overfull \vbox (6.60033pt too high) detected at line 575
- []
-
 File: images/background.png Graphic file (type png)
-<use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 575.
+ <use images/background.png>
+Package pdftex.def Info: images/background.png used on input line 626.
 (pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
  [29
-
-] <../images/RainyRiverDischarge_sim.png, id=268, 632.3625pt x 513.8397pt>
-File: ../images/RainyRiverDischarge_sim.png Graphic file (type png)
- <use ../images/RainyRiverDischarge_sim.png>
-Package pdftex.def Info: ../images/RainyRiverDischarge_sim.png used on input line 585.
-(pdftex.def)             Requested size: 273.14651pt x 221.95035pt.
-
-Overfull \vbox (7.7243pt too high) detected at line 585
- []
-
-File: images/background.png Graphic file (type png)
-<use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 585.
-(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
- [30
-
- <../images/RainyRiverDischarge_sim.png>] <images/myersFLOOD0618c10_0.jpg, id=276, 1003.75pt x 643.40375pt>
-File: images/myersFLOOD0618c10_0.jpg Graphic file (type jpg)
- <use images/myersFLOOD0618c10_0.jpg>
-Package pdftex.def Info: images/myersFLOOD0618c10_0.jpg used on input line 593.
-(pdftex.def)             Requested size: 426.13629pt x 273.14662pt.
- [31
-
- <./images/myersFLOOD0618c10_0.jpg>]
-File: images/background.png Graphic file (type png)
- <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 611.
-(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
- [32
-
-] <images/FloodedSunset.jpg, id=288, 3011.25pt x 3011.25pt>
-File: images/FloodedSunset.jpg Graphic file (type jpg)
- <use images/FloodedSunset.jpg>
-Package pdftex.def Info: images/FloodedSunset.jpg used on input line 620.
-(pdftex.def)             Requested size: 364.19536pt x 364.18318pt.
- [33
-
- <./images/FloodedSunset.jpg>]
-File: images/background.png Graphic file (type png)
- <use images/background.png>
-Package pdftex.def Info: images/background.png used on input line 658.
-(pdftex.def)             Requested size: 364.19255pt x 273.14877pt.
- [34
 
 ]
 \tf@nav=\write6
@@ -1720,11 +1695,11 @@ Package pdftex.def Info: images/background.png used on input line 658.
 \tf@snm=\write8
 \openout8 = `Watershed_Forum_2016_Slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 660.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 660.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 628.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 628.
  (/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 660.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 660.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 628.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 628.
 Package rerunfilecheck Info: File `Watershed_Forum_2016_Slides.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -1732,21 +1707,21 @@ Package rerunfilecheck Info: File `Watershed_Forum_2016_Slides.out' has not chan
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 660.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 628.
  ) 
 Here is how much of TeX's memory you used:
- 32712 strings out of 493117
- 744966 string characters out of 6135433
- 931034 words of memory out of 5000000
- 35315 multiletter control sequences out of 15000+600000
+ 32671 strings out of 493117
+ 744285 string characters out of 6135433
+ 930700 words of memory out of 5000000
+ 35288 multiletter control sequences out of 15000+600000
  26210 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,12n,78p,1030b,686s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/wasy/wasy10.pfb>
-Output written on "/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.pdf" (34 pages, 10039267 bytes).
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/wasy/wasy10.pfb>
+Output written on "/Users/jeff/Dropbox/Git/Rainy-Lake-Hydrology/Watershed Forum 2016/.texpadtmp/Watershed_Forum_2016_Slides.pdf" (29 pages, 7689650 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
- 78 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 321 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 
